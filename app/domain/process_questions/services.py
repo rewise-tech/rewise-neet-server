@@ -1,25 +1,28 @@
 from sqlalchemy.orm import Session
 
-from app.domain.questions import schemas
-from app.domain.questions.models import Option, Question
-from app.domain.questions.repository import QuestionRepository
+from app.domain.process_questions import schemas
+from app.domain.process_questions.models import StageOption, StageQuestion
+from app.domain.process_questions.repository import StageQuestionRepository
 
 
-class QuestionService:
+class StageQuestionService:
     def __init__(self, session: Session) -> None:
-        self.repo = QuestionRepository(session)
+        self.repo = StageQuestionRepository(session)
 
-    def list_questions(self) -> list[Question]:
+    def list_questions(self) -> list[StageQuestion]:
         return self.repo.list()
 
-    def get_question(self, question_id: int) -> Question | None:
+    def get_question(self, question_id: int) -> StageQuestion | None:
         return self.repo.get(question_id)
 
-    def create_question(self, payload: schemas.QuestionCreate) -> Question:
-        # Create Question instance
-        question = Question(
+    def create_question(self, payload: schemas.StageQuestionCreate) -> StageQuestion:
+        # Create StageQuestion instance
+        question = StageQuestion(
             source=payload.source,
             year=payload.year,
+            subject=payload.subject,
+            chapter=payload.chapter,
+            topic=payload.topic,
             question_number=payload.question_number,
             question_text=payload.question_text,
             has_diagram=payload.has_diagram,
@@ -31,27 +34,33 @@ class QuestionService:
             reviewed=payload.reviewed,
         )
 
-        # Create Option instances and associate them
+        # Create StageOption instances and associate them
         for opt_payload in payload.options:
-            option = Option(
+            option = StageOption(
                 label=opt_payload.label,
                 text=opt_payload.text,
-                option_has_diagram=opt_payload.option_has_diagram,
-                option_diagram_description=opt_payload.option_diagram_description,
-                option_diagram_name=opt_payload.option_diagram_name,
+                has_diagram=opt_payload.has_diagram,
+                diagram_description=opt_payload.diagram_description,
+                diagram_name=opt_payload.diagram_name,
             )
             question.options.append(option)
 
         return self.repo.create(question)
 
     def update_question(
-        self, question: Question, payload: schemas.QuestionUpdate
-    ) -> Question:
+        self, question: StageQuestion, payload: schemas.StageQuestionUpdate
+    ) -> StageQuestion:
         fields: dict[str, object] = {}
         if payload.source is not None:
             fields["source"] = payload.source
         if payload.year is not None:
             fields["year"] = payload.year
+        if payload.subject is not None:
+            fields["subject"] = payload.subject
+        if payload.chapter is not None:
+            fields["chapter"] = payload.chapter
+        if payload.topic is not None:
+            fields["topic"] = payload.topic
         if payload.question_number is not None:
             fields["question_number"] = payload.question_number
         if payload.question_text is not None:
@@ -77,5 +86,5 @@ class QuestionService:
 
         return self.repo.update(question, **fields)
 
-    def delete_question(self, question: Question) -> None:
+    def delete_question(self, question: StageQuestion) -> None:
         self.repo.delete(question)

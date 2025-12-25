@@ -1,0 +1,88 @@
+[
+    {
+        "source": "NEET",
+        "year": "2025",
+        "question_number": "49",
+        "question_text": "Predict the major product 'P' in the following sequence of reactions - (i) HBr, benzoyl peroxide (ii) KCN (iii) Na(Hg)/C2H5OH -> P (Major) - updated question text",
+        "has_diagram": true,
+        "diagram_description": "string",
+        "diagram_position": "string",
+        "diagram_name": "none",
+        "answer": "string",
+        "solution": "string",
+        "reviewed": false,
+        "options": [
+            {
+                "label": "(1)",
+                "text": "updated option 1",
+                "option_has_diagram": true,
+                "option_diagram_description": "string",
+                "option_diagram_name": "2025-49-1"
+            },
+            {
+                "label": "(2)",
+                "text": "updated option 2",
+                "option_has_diagram": true,
+                "option_diagram_description": "string",
+                "option_diagram_name": "2025-49-2"
+            },
+            {
+                "label": "(3)",
+                "text": "updated option 3",
+                "option_has_diagram": true,
+                "option_diagram_description": "string",
+                "option_diagram_name": "2025-49-3"
+            },
+            {
+                "label": "(4)",
+                "text": "updated option 4",
+                "option_has_diagram": true,
+                "option_diagram_description": "string",
+                "option_diagram_name": "2025-49-4"
+            }
+        ]
+    },
+    {
+        "source": "NEET",
+        "year": "2025",
+        "question_number": "50",
+        "question_text": "Energy and radius of first Bohr orbit of He+ and Li2+ are [Given R_H = 2.18 × 10^-18 J, a0 = 52.9 pm]",
+        "has_diagram": false,
+        "diagram_description": null,
+        "diagram_position": "",
+        "diagram_name": "none",
+        "answer": "string",
+        "solution": "string",
+        "reviewed": false,
+        "options": [
+            {
+                "label": "(1)",
+                "text": "E_n(Li2+) = -19.62×10^-18 J; r_n(Li2+) = 17.6 pm E_n(He+) = -8.72×10^-18 J; r_n(He+) = 26.4 pm",
+                "option_has_diagram": false,
+                "option_diagram_name": "none",
+                "option_diagram_description": "string"
+            },
+            {
+                "label": "(2)",
+                "text": "E_n(Li2+) = -8.72×10^-18 J; r_n(Li2+) = 26.4 pm E_n(He+) = -19.62×10^-18 J; r_n(He+) = 17.6 pm",
+                "option_has_diagram": false,
+                "option_diagram_name": "none",
+                "option_diagram_description": "string"
+            },
+            {
+                "label": "(3)",
+                "text": "E_n(Li2+) = -19.62×10^-16 J; r_n(Li2+) = 17.6 pm E_n(He+) = -8.72×10^-16 J; r_n(He+) = 26.4 pm",
+                "option_has_diagram": false,
+                "option_diagram_name": "none",
+                "option_diagram_description": "string"
+            },
+            {
+                "label": "(4)",
+                "text": "E_n(Li2+) = -8.72×10^-16 J; r_n(Li2+) = 17.6 pm E_n(He+) = -19.62×10^-16 J; r_n(He+) = 17.6 pm",
+                "option_has_diagram": false,
+                "option_diagram_name": "none",
+                "option_diagram_description": "string"
+            }
+        ]
+    }
+]

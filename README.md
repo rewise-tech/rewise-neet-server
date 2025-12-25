@@ -7,19 +7,22 @@
 uv sync
 
 # run dev server
-uv run uvicorn app.main:app --reload
+uv run uvicorn main:app --reload
 
-
+# question json 
 
 {
     "source": "string",
     "year": "string",
+    "subject": "string",
+    "chapter": "string",
+    "topic": "string",
     "question_number": "string",
     "question_text": "string",
     "has_diagram": true or false,
     "diagram_description": "string",
     "diagram_position": "string",
-    "diagram_name": "none",
+    "diagram_name": "string",
     "answer": "string",
     "solution": "string",
     "reviewed": true or false,
@@ -27,9 +30,14 @@ uv run uvicorn app.main:app --reload
         {
             "label": "string",
             "text": "string",
-            "option_has_diagram": true or false,
-            "option_diagram_description": "string",          
-            "option_diagram_name": "none"
+            "has_diagram": true or false,
+            "diagram_description": "string",          
+            "diagram_name": "string"
         }
-    ],
+    ]
 }
+
+# question json sample
+
+
+http://0.0.0.0:8000/api/process-questions/

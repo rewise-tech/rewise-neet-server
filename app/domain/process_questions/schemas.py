@@ -4,60 +4,66 @@ from typing import Optional
 from pydantic import BaseModel, Field
 
 
-# --- Option Schemas ---
+# --- Stage Option Schemas ---
 
 
-class OptionBase(BaseModel):
+class StageOptionBase(BaseModel):
     label: str = Field(..., max_length=50, description="Option label like A, B, C, D")
     text: str = Field(..., description="The text content of the option")
-    option_has_diagram: bool = False
-    option_diagram_description: Optional[str] = None
-    option_diagram_name: str = "none"
+    has_diagram: bool = False
+    diagram_description: Optional[str] = None
+    diagram_name: Optional[str] = None
 
 
-class OptionCreate(OptionBase):
+class StageOptionCreate(StageOptionBase):
     pass
 
 
-class OptionUpdate(BaseModel):
+class StageOptionUpdate(BaseModel):
     label: Optional[str] = Field(None, max_length=50)
     text: Optional[str] = None
-    option_has_diagram: Optional[bool] = None
-    option_diagram_description: Optional[str] = None
-    option_diagram_name: Optional[str] = None
+    has_diagram: Optional[bool] = None
+    diagram_description: Optional[str] = None
+    diagram_name: Optional[str] = None
 
 
-class OptionRead(OptionBase):
+class StageOptionRead(StageOptionBase):
     id: int
     question_id: int
 
     model_config = {"from_attributes": True}
 
 
-# --- Question Schemas ---
+# --- Stage Question Schemas ---
 
 
-class QuestionBase(BaseModel):
+class StageQuestionBase(BaseModel):
     source: str = Field(..., max_length=255)
-    year: str = Field(..., max_length=4)
+    year: str = Field(..., max_length=50)
+    subject: str = Field(..., max_length=255)
+    chapter: str = Field(..., max_length=255)
+    topic: str = Field(..., max_length=255)
     question_number: str = Field(..., max_length=50)
     question_text: str
     has_diagram: bool = False
     diagram_description: Optional[str] = None
     diagram_position: Optional[str] = None
-    diagram_name: str = "none"
+    diagram_name: Optional[str] = None
     answer: str = Field(..., max_length=50)
     solution: Optional[str] = None
     reviewed: bool = False
 
 
-class QuestionCreate(QuestionBase):
-    options: list[OptionCreate] = []
+class StageQuestionCreate(StageQuestionBase):
+    options: list[StageOptionCreate] = []
 
 
-class QuestionUpdate(BaseModel):
+class StageQuestionUpdate(BaseModel):
     source: Optional[str] = Field(None, max_length=255)
-    year: Optional[str] = Field(None, max_length=4)
+    year: Optional[str] = Field(None, max_length=50)
+    subject: Optional[str] = Field(None, max_length=255)
+    chapter: Optional[str] = Field(None, max_length=255)
+    topic: Optional[str] = Field(None, max_length=255)
     question_number: Optional[str] = Field(None, max_length=50)
     question_text: Optional[str] = None
     has_diagram: Optional[bool] = None
@@ -67,15 +73,13 @@ class QuestionUpdate(BaseModel):
     answer: Optional[str] = Field(None, max_length=50)
     solution: Optional[str] = None
     reviewed: Optional[bool] = None
-    options: Optional[list[OptionUpdate]] = (
-        None  # Note: logic for updating nested options can be complex
-    )
+    options: Optional[list[StageOptionUpdate]] = None
 
 
-class QuestionRead(QuestionBase):
+class StageQuestionRead(StageQuestionBase):
     id: int
     created_at: datetime
     updated_at: datetime
-    options: list[OptionRead] = []
+    options: list[StageOptionRead] = []
 
     model_config = {"from_attributes": True}
