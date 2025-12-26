@@ -12,6 +12,16 @@ class StageQuestionService:
     def list_questions(self) -> list[StageQuestion]:
         return self.repo.list()
 
+    def search_questions_by_year(self, year: str) -> list[StageQuestion]:
+        return self.repo.list_by_year(year)
+
+    def get_question_by_question_number(
+        self, *, year: str, question_number: str
+    ) -> StageQuestion | None:
+        return self.repo.get_by_question_number(
+            year=year, question_number=question_number
+        )
+
     def get_question(self, question_id: int) -> StageQuestion | None:
         return self.repo.get(question_id)
 

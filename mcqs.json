@@ -1,88 +1,57 @@
-[
-    {
-        "source": "NEET",
-        "year": "2025",
-        "question_number": "49",
-        "question_text": "Predict the major product 'P' in the following sequence of reactions - (i) HBr, benzoyl peroxide (ii) KCN (iii) Na(Hg)/C2H5OH -> P (Major) - updated question text",
-        "has_diagram": true,
-        "diagram_description": "string",
-        "diagram_position": "string",
-        "diagram_name": "none",
-        "answer": "string",
-        "solution": "string",
-        "reviewed": false,
-        "options": [
-            {
-                "label": "(1)",
-                "text": "updated option 1",
-                "option_has_diagram": true,
-                "option_diagram_description": "string",
-                "option_diagram_name": "2025-49-1"
-            },
-            {
-                "label": "(2)",
-                "text": "updated option 2",
-                "option_has_diagram": true,
-                "option_diagram_description": "string",
-                "option_diagram_name": "2025-49-2"
-            },
-            {
-                "label": "(3)",
-                "text": "updated option 3",
-                "option_has_diagram": true,
-                "option_diagram_description": "string",
-                "option_diagram_name": "2025-49-3"
-            },
-            {
-                "label": "(4)",
-                "text": "updated option 4",
-                "option_has_diagram": true,
-                "option_diagram_description": "string",
-                "option_diagram_name": "2025-49-4"
-            }
-        ]
-    },
-    {
-        "source": "NEET",
-        "year": "2025",
-        "question_number": "50",
-        "question_text": "Energy and radius of first Bohr orbit of He+ and Li2+ are [Given R_H = 2.18 × 10^-18 J, a0 = 52.9 pm]",
-        "has_diagram": false,
-        "diagram_description": null,
-        "diagram_position": "",
-        "diagram_name": "none",
-        "answer": "string",
-        "solution": "string",
-        "reviewed": false,
-        "options": [
-            {
-                "label": "(1)",
-                "text": "E_n(Li2+) = -19.62×10^-18 J; r_n(Li2+) = 17.6 pm E_n(He+) = -8.72×10^-18 J; r_n(He+) = 26.4 pm",
-                "option_has_diagram": false,
-                "option_diagram_name": "none",
-                "option_diagram_description": "string"
-            },
-            {
-                "label": "(2)",
-                "text": "E_n(Li2+) = -8.72×10^-18 J; r_n(Li2+) = 26.4 pm E_n(He+) = -19.62×10^-18 J; r_n(He+) = 17.6 pm",
-                "option_has_diagram": false,
-                "option_diagram_name": "none",
-                "option_diagram_description": "string"
-            },
-            {
-                "label": "(3)",
-                "text": "E_n(Li2+) = -19.62×10^-16 J; r_n(Li2+) = 17.6 pm E_n(He+) = -8.72×10^-16 J; r_n(He+) = 26.4 pm",
-                "option_has_diagram": false,
-                "option_diagram_name": "none",
-                "option_diagram_description": "string"
-            },
-            {
-                "label": "(4)",
-                "text": "E_n(Li2+) = -8.72×10^-16 J; r_n(Li2+) = 17.6 pm E_n(He+) = -19.62×10^-16 J; r_n(He+) = 17.6 pm",
-                "option_has_diagram": false,
-                "option_diagram_name": "none",
-                "option_diagram_description": "string"
-            }
-        ]
-    }
-]
+{
+    "source": "NEET",
+    "year": "2025",
+    "subject": "none",
+    "chapter": "none",
+    "topic": "none",
+    "question_number": "1",
+    "question_text": "Consider a water tank shown in the figure. It has one wall at x = L and can be taken to be very wide in the z direction. When filled with a liquid of surface tension S and density ρ, the liquid surface makes angle θ₀(θ₀ << 1) with the x-axis at x = L. If y(x) is the height of the surface then the equation for y(x) is : (take θ(x)=sinθ(x)=tanθ(x)=dy/dx , g is the acceleration due to gravity)",
+    "has_diagram": true,
+    "diagram_description": "Diagram showing y vs x graph with a curved liquid surface rising to meet the wall at x=L at a small angle θ₀ with the x-axis",
+    "diagram_position": "left side",
+    "diagram_name": "2025-1",
+    "answer": "2",
+    "solution": "none",
+    "reviewed": false,
+    "id": 42,
+    "created_at": "2025-12-25T19:08:46.651985",
+    "updated_at": "2025-12-25T19:08:46.651985",
+    "options": [
+        {
+            "label": "(1)",
+            "text": "d²y/dx² = (ρg/S) x",
+            "has_diagram": false,
+            "diagram_description": "",
+            "diagram_name": "none",
+            "id": 165,
+            "question_id": 42
+        },
+        {
+            "label": "(2)",
+            "text": "d²y/dx² = (ρg/S) y",
+            "has_diagram": false,
+            "diagram_description": "",
+            "diagram_name": "none",
+            "id": 166,
+            "question_id": 42
+        },
+        {
+            "label": "(3)",
+            "text": "d²y/dx² = √(ρg/S)",
+            "has_diagram": false,
+            "diagram_description": "",
+            "diagram_name": "none",
+            "id": 167,
+            "question_id": 42
+        },
+        {
+            "label": "(4)",
+            "text": "dy/dx = √(ρg/S) x",
+            "has_diagram": false,
+            "diagram_description": "",
+            "diagram_name": "none",
+            "id": 168,
+            "question_id": 42
+        }
+    ]
+}
