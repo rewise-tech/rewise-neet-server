@@ -31,7 +31,7 @@ class StageQuestion(Base):
     has_diagram = Column(Boolean, default=False)
     diagram_description = Column(Text)
     diagram_position = Column(String)  # e.g., "above", "below", "inline"
-    diagram_name = Column(String)  # filename or identifier
+    diagram_name = Column(Text)  # filename or identifier
 
     answer = Column(String, nullable=False)  # e.g., "B" or "2"
     solution = Column(Text)
@@ -68,7 +68,7 @@ class StageOption(Base):
 
     has_diagram = Column(Boolean, default=False)
     diagram_description = Column(Text)
-    diagram_name = Column(String)
+    diagram_name = Column(Text)
 
     # Relationship back to stage question
     question = relationship("StageQuestion", back_populates="options")
