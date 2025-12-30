@@ -40,6 +40,7 @@ class StageQuestionService:
             diagram_position=payload.diagram_position,
             diagram_name=payload.diagram_name,
             answer=payload.answer,
+            ai_answer=payload.ai_answer,
             solution=payload.solution,
             reviewed=payload.reviewed,
         )
@@ -85,14 +86,25 @@ class StageQuestionService:
             fields["diagram_name"] = payload.diagram_name
         if payload.answer is not None:
             fields["answer"] = payload.answer
+        if payload.ai_answer is not None:
+            fields["ai_answer"] = payload.ai_answer
         if payload.solution is not None:
             fields["solution"] = payload.solution
         if payload.reviewed is not None:
             fields["reviewed"] = payload.reviewed
 
-        # Note: Nested option updates are not fully implemented here as they require
-        # a strategy for reconciling existing vs new options (add/remove/update).
-        # For this iteration, we focus on updating top-level fields.
+        if payload.options is not None:
+            for opt_payload in payload.options:
+                for index, opt in enumerate(question.options):
+                    if opt.id == opt_payload.id:
+                        question.options[index].label = opt_payload.label
+                        question.options[index].text = opt_payload.text
+                        question.options[index].has_diagram = opt_payload.has_diagram
+                        question.options[
+                            index
+                        ].diagram_description = opt_payload.diagram_description
+                        question.options[index].diagram_name = opt_payload.diagram_name
+                        break
 
         return self.repo.update(question, **fields)
 

@@ -20,23 +20,23 @@ class StageQuestion(Base):
     id = Column(Integer, primary_key=True, index=True)
 
     # Main fields from the root JSON
-    source = Column(String, nullable=False, index=True)
-    year = Column(String, nullable=False, index=True)
-    subject = Column(String, nullable=False, index=True)
-    chapter = Column(String, nullable=False, index=True)
-    topic = Column(String, nullable=False, index=True)
+    source = Column(String, nullable=True, index=True)
+    year = Column(String, nullable=True, index=True)
+    subject = Column(String, nullable=True, index=True)
+    chapter = Column(String, nullable=True, index=True)
+    topic = Column(String, nullable=True, index=True)
     question_number = Column(String, nullable=False, index=True)
 
-    question_text = Column(Text, nullable=False)
+    question_text = Column(Text, nullable=True)
     has_diagram = Column(Boolean, default=False)
     diagram_description = Column(Text)
-    diagram_position = Column(String)  # e.g., "above", "below", "inline"
-    diagram_name = Column(Text)  # filename or identifier
-
-    answer = Column(String, nullable=False)  # e.g., "B" or "2"
+    diagram_position = Column(String)
+    diagram_name = Column(Text)
+    answer = Column(String, nullable=True)
+    ai_answer = Column(String, nullable=True)
     solution = Column(Text)
-
     reviewed = Column(Boolean, default=False)
+
     created_at: Mapped[datetime] = mapped_column(
         TIMESTAMP, server_default=func.current_timestamp()
     )
@@ -63,8 +63,8 @@ class StageOption(Base):
     # Foreign key to parent stage question
     question_id = Column(Integer, ForeignKey("stage_questions.id"), nullable=False)
 
-    label = Column(String, nullable=False)  # e.g., "A", "B", "1", "2"
-    text = Column(Text, nullable=False)
+    label = Column(String, nullable=True)
+    text = Column(Text, nullable=True)
 
     has_diagram = Column(Boolean, default=False)
     diagram_description = Column(Text)
