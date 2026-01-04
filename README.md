@@ -41,3 +41,11 @@ uv run uvicorn main:app --reload
 
 
 http://0.0.0.0:8000/api/process-questions/
+
+
+How to Manage Migrations in Future
+Make changes to models in Python code.
+Generate a migration:
+uv run alembic revision --autogenerate -m "description_of_changes"
+Apply the migration:
+uv run alembic upgrade head
