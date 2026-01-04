@@ -35,6 +35,7 @@ class StageQuestionService:
             topic=payload.topic,
             question_number=payload.question_number,
             question_text=payload.question_text,
+            difficulty=payload.difficulty,
             has_diagram=payload.has_diagram,
             diagram_description=payload.diagram_description,
             diagram_position=payload.diagram_position,
@@ -76,6 +77,8 @@ class StageQuestionService:
             fields["question_number"] = payload.question_number
         if payload.question_text is not None:
             fields["question_text"] = payload.question_text
+        if payload.difficulty is not None:
+            fields["difficulty"] = payload.difficulty
         if payload.has_diagram is not None:
             fields["has_diagram"] = payload.has_diagram
         if payload.diagram_description is not None:

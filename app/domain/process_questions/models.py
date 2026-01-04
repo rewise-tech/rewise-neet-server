@@ -26,8 +26,8 @@ class StageQuestion(Base):
     chapter = Column(String, nullable=True, index=True)
     topic = Column(String, nullable=True, index=True)
     question_number = Column(String, nullable=False, index=True)
-
     question_text = Column(Text, nullable=True)
+    difficulty = Column(String, nullable=True)
     has_diagram = Column(Boolean, default=False)
     diagram_description = Column(Text)
     diagram_position = Column(String)

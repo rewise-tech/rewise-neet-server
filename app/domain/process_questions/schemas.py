@@ -48,6 +48,7 @@ class StageQuestionBase(BaseModel):
     topic: Optional[str] = Field(None, max_length=255)
     question_number: str = Field(..., max_length=50)
     question_text: Optional[str] = None
+    difficulty: Optional[str] = None
     has_diagram: bool = False
     diagram_description: Optional[str] = None
     diagram_position: Optional[str] = None
@@ -71,6 +72,7 @@ class StageQuestionUpdate(BaseModel):
     topic: Optional[str] = Field(None, max_length=255)
     question_number: Optional[str] = Field(None, max_length=50)
     question_text: Optional[str] = None
+    difficulty: Optional[str] = None
     has_diagram: Optional[bool] = None
     diagram_description: Optional[str] = None
     diagram_position: Optional[str] = None
