@@ -113,3 +113,15 @@ class StageQuestionService:
 
     def delete_question(self, question: StageQuestion) -> None:
         self.repo.delete(question)
+
+    def get_unique_sources(self) -> list[str]:
+        return self.repo.get_distinct_sources()
+
+    def get_unique_subjects(self) -> list[str]:
+        return self.repo.get_distinct_subjects()
+
+    def get_unique_chapters(self) -> list[str]:
+        return self.repo.get_distinct_chapters()
+
+    def get_unique_years(self) -> list[str]:
+        return self.repo.get_distinct_years()

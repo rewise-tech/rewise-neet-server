@@ -25,6 +25,34 @@ def search_questions_by_year(
     return service.search_questions_by_year(year)
 
 
+@router.get("/sources", response_model=list[str])
+def get_unique_sources(
+    service: StageQuestionService = Depends(get_stage_question_service),
+):
+    return service.get_unique_sources()
+
+
+@router.get("/subjects", response_model=list[str])
+def get_unique_subjects(
+    service: StageQuestionService = Depends(get_stage_question_service),
+):
+    return service.get_unique_subjects()
+
+
+@router.get("/chapters", response_model=list[str])
+def get_unique_chapters(
+    service: StageQuestionService = Depends(get_stage_question_service),
+):
+    return service.get_unique_chapters()
+
+
+@router.get("/years", response_model=list[str])
+def get_unique_years(
+    service: StageQuestionService = Depends(get_stage_question_service),
+):
+    return service.get_unique_years()
+
+
 @router.get(
     "/by-question-number/{question_number}", response_model=schemas.StageQuestionRead
 )

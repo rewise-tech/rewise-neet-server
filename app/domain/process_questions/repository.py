@@ -60,3 +60,33 @@ class StageQuestionRepository:
     def delete(self, question: StageQuestion) -> None:
         self.session.delete(question)
         self.session.commit()
+
+    def get_distinct_sources(self) -> list[str]:
+        stmt = (
+            select(StageQuestion.source)
+            .distinct()
+            .where(StageQuestion.source.is_not(None))
+        )
+        return list(self.session.scalars(stmt))
+
+    def get_distinct_subjects(self) -> list[str]:
+        stmt = (
+            select(StageQuestion.subject)
+            .distinct()
+            .where(StageQuestion.subject.is_not(None))
+        )
+        return list(self.session.scalars(stmt))
+
+    def get_distinct_chapters(self) -> list[str]:
+        stmt = (
+            select(StageQuestion.chapter)
+            .distinct()
+            .where(StageQuestion.chapter.is_not(None))
+        )
+        return list(self.session.scalars(stmt))
+
+    def get_distinct_years(self) -> list[str]:
+        stmt = (
+            select(StageQuestion.year).distinct().where(StageQuestion.year.is_not(None))
+        )
+        return list(self.session.scalars(stmt))
