@@ -12,8 +12,21 @@ class StageQuestionService:
     def list_questions(self) -> list[StageQuestion]:
         return self.repo.list()
 
-    def search_questions_by_year(self, year: str) -> list[StageQuestion]:
-        return self.repo.list_by_year(year)
+    def search_questions(
+        self,
+        year: str | None = None,
+        source: str | None = None,
+        subject: str | None = None,
+        chapter: str | None = None,
+        reviewed: bool | None = None,
+    ) -> list[StageQuestion]:
+        return self.repo.search(
+            year=year,
+            source=source,
+            subject=subject,
+            chapter=chapter,
+            reviewed=reviewed,
+        )
 
     def get_question_by_question_number(
         self, *, year: str, question_number: str
@@ -120,8 +133,8 @@ class StageQuestionService:
     def get_unique_subjects(self) -> list[str]:
         return self.repo.get_distinct_subjects()
 
-    def get_unique_chapters(self) -> list[str]:
-        return self.repo.get_distinct_chapters()
+    def get_unique_chapters(self, subject: str | None = None) -> list[str]:
+        return self.repo.get_distinct_chapters(subject=subject)
 
     def get_unique_years(self) -> list[str]:
         return self.repo.get_distinct_years()

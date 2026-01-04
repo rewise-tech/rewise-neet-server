@@ -84,9 +84,12 @@ class StageQuestionUpdate(BaseModel):
     options: Optional[list[StageOptionUpdate]] = None
 
 
-class StageQuestionYearSearchRead(BaseModel):
+class StageQuestionSearchRead(BaseModel):
     id: int
-    year: str
+    source: Optional[str]
+    year: Optional[str]
+    subject: Optional[str]
+    chapter: Optional[str]
     question_number: str
 
     model_config = {"from_attributes": True}

@@ -16,12 +16,28 @@ class StageQuestionRepository:
         stmt = select(StageQuestion).order_by(StageQuestion.id)
         return list(self.session.scalars(stmt))
 
-    def list_by_year(self, year: str) -> list[StageQuestion]:
-        stmt = (
-            select(StageQuestion)
-            .where(StageQuestion.year == year)
-            .order_by(cast(StageQuestion.question_number, Integer))
-        )
+    def search(
+        self,
+        *,
+        year: Optional[str] = None,
+        source: Optional[str] = None,
+        subject: Optional[str] = None,
+        chapter: Optional[str] = None,
+        reviewed: Optional[bool] = None,
+    ) -> list[StageQuestion]:
+        stmt = select(StageQuestion)
+        if year:
+            stmt = stmt.where(StageQuestion.year == year)
+        if source:
+            stmt = stmt.where(StageQuestion.source == source)
+        if subject:
+            stmt = stmt.where(StageQuestion.subject == subject)
+        if chapter:
+            stmt = stmt.where(StageQuestion.chapter == chapter)
+        if reviewed is not None:
+            stmt = stmt.where(StageQuestion.reviewed == reviewed)
+
+        stmt = stmt.order_by(cast(StageQuestion.question_number, Integer))
         return list(self.session.scalars(stmt))
 
     def get_by_question_number(
@@ -77,12 +93,14 @@ class StageQuestionRepository:
         )
         return list(self.session.scalars(stmt))
 
-    def get_distinct_chapters(self) -> list[str]:
+    def get_distinct_chapters(self, subject: Optional[str] = None) -> list[str]:
         stmt = (
             select(StageQuestion.chapter)
             .distinct()
             .where(StageQuestion.chapter.is_not(None))
         )
+        if subject:
+            stmt = stmt.where(StageQuestion.subject == subject)
         return list(self.session.scalars(stmt))
 
     def get_distinct_years(self) -> list[str]:
