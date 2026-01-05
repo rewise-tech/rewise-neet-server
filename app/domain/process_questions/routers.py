@@ -26,6 +26,7 @@ def search_questions(
     reviewed: bool | None = Query(None),
     service: StageQuestionService = Depends(get_stage_question_service),
 ):
+    print(year, source, subject, chapter, reviewed)
     return service.search_questions(
         year=year, source=source, subject=subject, chapter=chapter, reviewed=reviewed
     )

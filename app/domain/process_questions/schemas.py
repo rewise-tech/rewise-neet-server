@@ -91,6 +91,7 @@ class StageQuestionSearchRead(BaseModel):
     subject: Optional[str]
     chapter: Optional[str]
     question_number: str
+    reviewed: bool
 
     model_config = {"from_attributes": True}
 
