@@ -32,6 +32,7 @@ class Chapter(Base):
     id = Column(Integer, primary_key=True)
     no = Column(String, nullable=False)  # Chapter number (as string, e.g., "1" or "01")
     name = Column(String, nullable=False)  # Chapter name
+    formatted_name = Column(String, nullable=False)
 
     subject_id = Column(
         Integer, ForeignKey("subjects.id", ondelete="CASCADE"), nullable=False
@@ -49,6 +50,7 @@ class Topic(Base):
     id = Column(Integer, primary_key=True)
     no = Column(String, nullable=False)  # Topic number (as string)
     name = Column(String, nullable=False)  # Topic name
+    formatted_name = Column(String, nullable=False)
 
     chapter_id = Column(
         Integer, ForeignKey("chapters.id", ondelete="CASCADE"), nullable=False

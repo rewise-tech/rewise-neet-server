@@ -32,6 +32,7 @@ class SubjectsRepository:
                     no=chapter_data.no,
                     name=chapter_data.name,
                     subject_id=db_subject.id,
+                    formatted_name=chapter_data.formatted_name,
                 )
                 self.db.add(db_chapter)
                 self.db.flush()
@@ -42,6 +43,7 @@ class SubjectsRepository:
                             no=topic_data.no,
                             name=topic_data.name,
                             chapter_id=db_chapter.id,
+                            formatted_name=topic_data.formatted_name,
                         )
                         self.db.add(db_topic)
 
@@ -77,7 +79,10 @@ class SubjectsRepository:
     # --- Chapter Methods ---
     def create_chapter(self, chapter: ChapterCreate) -> Chapter:
         db_chapter = Chapter(
-            no=chapter.no, name=chapter.name, subject_id=chapter.subject_id
+            no=chapter.no,
+            name=chapter.name,
+            subject_id=chapter.subject_id,
+            formatted_name=chapter.formatted_name,
         )
         self.db.add(db_chapter)
         self.db.flush()
@@ -88,6 +93,7 @@ class SubjectsRepository:
                     no=topic_data.no,
                     name=topic_data.name,
                     chapter_id=db_chapter.id,
+                    formatted_name=topic_data.formatted_name,
                 )
                 self.db.add(db_topic)
 

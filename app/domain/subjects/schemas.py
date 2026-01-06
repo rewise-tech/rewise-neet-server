@@ -8,6 +8,7 @@ from pydantic import BaseModel, ConfigDict
 class TopicBase(BaseModel):
     no: str
     name: str
+    formatted_name: str
 
 
 class TopicCreate(TopicBase):
@@ -17,6 +18,7 @@ class TopicCreate(TopicBase):
 class TopicUpdate(BaseModel):
     no: Optional[str] = None
     name: Optional[str] = None
+    formatted_name: Optional[str] = None
     chapter_id: Optional[int] = None
 
 
@@ -30,6 +32,7 @@ class TopicResponse(TopicBase):
 class ChapterBase(BaseModel):
     no: str
     name: str
+    formatted_name: str
 
 
 class ChapterCreate(ChapterBase):
@@ -40,6 +43,7 @@ class ChapterCreate(ChapterBase):
 class ChapterUpdate(BaseModel):
     no: Optional[str] = None
     name: Optional[str] = None
+    formatted_name: Optional[str] = None
     subject_id: Optional[int] = None
 
 
