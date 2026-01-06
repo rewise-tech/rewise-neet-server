@@ -22,12 +22,18 @@ def list_questions(service: QuestionService = Depends(get_question_service)):
     return service.list_questions()
 
 
-@router.get("/search", response_model=list[schemas.QuestionYearSearchRead])
-def search_questions_by_year(
-    year: str = Query(...),
+@router.get("/search", response_model=list[schemas.QuestionSearchRead])
+def search_questions(
+    year: str | None = Query(None),
+    source: str | None = Query(None),
+    subject: str | None = Query(None),
+    chapter: str | None = Query(None),
+    reviewed: bool | None = Query(None),
     service: QuestionService = Depends(get_question_service),
 ):
-    return service.search_questions_by_year(year)
+    return service.search_questions(
+        year=year, source=source, subject=subject, chapter=chapter, reviewed=reviewed
+    )
 
 
 @router.get(

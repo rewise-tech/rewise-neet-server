@@ -84,10 +84,18 @@ class QuestionUpdate(BaseModel):
     options: Optional[list[OptionUpdate]] = None
 
 
-class QuestionYearSearchRead(BaseModel):
+class QuestionSearchRead(BaseModel):
     id: int
-    year: str
+    source: Optional[str]
+    year: Optional[str]
+    subject: Optional[str]
+    chapter: Optional[str]
     question_number: str
+    reviewed: bool
+    answer: Optional[str]
+    ai_answer: Optional[str]
+    solution: Optional[str]
+    options: Optional[list[OptionRead]] = None
 
     model_config = {"from_attributes": True}
 

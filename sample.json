@@ -1,40 +1,3481 @@
-{
-    "topics": [
-        {
-            "no": "1.1",
-            "name": "Introduction",
-            "id": 4,
-            "chapter_id": 4
-        },
-        {
-            "no": "1.2",
-            "name": "The international system of units",
-            "id": 5,
-            "chapter_id": 4
-        },
-        {
-            "no": "1.3",
-            "name": "Significant figures",
-            "id": 6,
-            "chapter_id": 4
-        },
-        {
-            "no": "1.4",
-            "name": "Dimensions of physical quantities",
-            "id": 7,
-            "chapter_id": 4
-        },
-        {
-            "no": "1.5",
-            "name": "Dimensional formulae and dimensional equations",
-            "id": 8,
-            "chapter_id": 4
-        },
-        {
-            "no": "1.6",
-            "name": "Dimensional analysis and its applications",
-            "id": 9,
-            "chapter_id": 4
-        }
-    ]
-}
+[
+    {
+        "class_name": "XII",
+        "subject_name": "Chemistry",
+        "id": 1,
+        "created_at": "2026-01-06T10:31:56.228567",
+        "updated_at": "2026-01-06T10:31:56.228567",
+        "chapters": [
+            {
+                "no": "1",
+                "name": "Solutions",
+                "formatted_name": "Solutions",
+                "id": 1,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "1.1",
+                        "name": "Types of Solutions",
+                        "formatted_name": "Types_Of_Solutions",
+                        "id": 1,
+                        "chapter_id": 1
+                    },
+                    {
+                        "no": "1.2",
+                        "name": "Expressing Concentration of Solutions",
+                        "formatted_name": "Expressing_Concentration_Of_Solutions",
+                        "id": 2,
+                        "chapter_id": 1
+                    },
+                    {
+                        "no": "1.3",
+                        "name": "Solubility",
+                        "formatted_name": "Solubility",
+                        "id": 3,
+                        "chapter_id": 1
+                    },
+                    {
+                        "no": "1.4",
+                        "name": "Vapour Pressure of Liquid Solutions",
+                        "formatted_name": "Vapour_Pressure_Of_Liquid_Solutions",
+                        "id": 4,
+                        "chapter_id": 1
+                    },
+                    {
+                        "no": "1.5",
+                        "name": "Ideal and Non-ideal Solutions",
+                        "formatted_name": "Ideal_And_Nonideal_Solutions",
+                        "id": 5,
+                        "chapter_id": 1
+                    },
+                    {
+                        "no": "1.6",
+                        "name": "Colligative Properties and Determination of Molar Mass",
+                        "formatted_name": "Colligative_Properties_And_Determination_Of_Molar_Mass",
+                        "id": 6,
+                        "chapter_id": 1
+                    },
+                    {
+                        "no": "1.7",
+                        "name": "Abnormal Molar Masses",
+                        "formatted_name": "Abnormal_Molar_Masses",
+                        "id": 7,
+                        "chapter_id": 1
+                    }
+                ]
+            },
+            {
+                "no": "2",
+                "name": "Electrochemistry",
+                "formatted_name": "Electrochemistry",
+                "id": 2,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "2.1",
+                        "name": "Electrochemical Cells",
+                        "formatted_name": "Electrochemical_Cells",
+                        "id": 8,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.2",
+                        "name": "Galvanic Cells",
+                        "formatted_name": "Galvanic_Cells",
+                        "id": 9,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.3",
+                        "name": "Nernst Equation",
+                        "formatted_name": "Nernst_Equation",
+                        "id": 10,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.4",
+                        "name": "Conductance of Electrolytic Solutions",
+                        "formatted_name": "Conductance_Of_Electrolytic_Solutions",
+                        "id": 11,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.5",
+                        "name": "Electrolytic Cells and Electrolysis",
+                        "formatted_name": "Electrolytic_Cells_And_Electrolysis",
+                        "id": 12,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.6",
+                        "name": "Batteries",
+                        "formatted_name": "Batteries",
+                        "id": 13,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.7",
+                        "name": "Fuel Cells",
+                        "formatted_name": "Fuel_Cells",
+                        "id": 14,
+                        "chapter_id": 2
+                    },
+                    {
+                        "no": "2.8",
+                        "name": "Corrosion",
+                        "formatted_name": "Corrosion",
+                        "id": 15,
+                        "chapter_id": 2
+                    }
+                ]
+            },
+            {
+                "no": "3",
+                "name": "Chemical Kinetics",
+                "formatted_name": "Chemical_Kinetics",
+                "id": 3,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "3.1",
+                        "name": "Rate of a Chemical Reaction",
+                        "formatted_name": "Rate_Of_A_Chemical_Reaction",
+                        "id": 16,
+                        "chapter_id": 3
+                    },
+                    {
+                        "no": "3.2",
+                        "name": "Factors Influencing Rate of a Reaction",
+                        "formatted_name": "Factors_Influencing_Rate_Of_A_Reaction",
+                        "id": 17,
+                        "chapter_id": 3
+                    },
+                    {
+                        "no": "3.3",
+                        "name": "Integrated Rate Equations",
+                        "formatted_name": "Integrated_Rate_Equations",
+                        "id": 18,
+                        "chapter_id": 3
+                    },
+                    {
+                        "no": "3.4",
+                        "name": "Temperature Dependence of the Rate of a Reaction",
+                        "formatted_name": "Temperature_Dependence_Of_The_Rate_Of_A_Reaction",
+                        "id": 19,
+                        "chapter_id": 3
+                    },
+                    {
+                        "no": "3.5",
+                        "name": "Collision Theory of Chemical Reactions",
+                        "formatted_name": "Collision_Theory_Of_Chemical_Reactions",
+                        "id": 20,
+                        "chapter_id": 3
+                    }
+                ]
+            },
+            {
+                "no": "4",
+                "name": "The d-and f-Block Elements",
+                "formatted_name": "The_Dand_Fblock_Elements",
+                "id": 4,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "4.1",
+                        "name": "Position in the Periodic Table",
+                        "formatted_name": "Position_In_The_Periodic_Table",
+                        "id": 21,
+                        "chapter_id": 4
+                    },
+                    {
+                        "no": "4.2",
+                        "name": "Electronic Configurations of the d-Block Elements",
+                        "formatted_name": "Electronic_Configurations_Of_The_Dblock_Elements",
+                        "id": 22,
+                        "chapter_id": 4
+                    },
+                    {
+                        "no": "4.3",
+                        "name": "General Properties of the Transition Elements (d-Block)",
+                        "formatted_name": "General_Properties_Of_The_Transition_Elements_Dblock",
+                        "id": 23,
+                        "chapter_id": 4
+                    },
+                    {
+                        "no": "4.4",
+                        "name": "Some Important Compounds of Transition Elements",
+                        "formatted_name": "Some_Important_Compounds_Of_Transition_Elements",
+                        "id": 24,
+                        "chapter_id": 4
+                    },
+                    {
+                        "no": "4.5",
+                        "name": "The Lanthanoids",
+                        "formatted_name": "The_Lanthanoids",
+                        "id": 25,
+                        "chapter_id": 4
+                    },
+                    {
+                        "no": "4.6",
+                        "name": "The Actinoids",
+                        "formatted_name": "The_Actinoids",
+                        "id": 26,
+                        "chapter_id": 4
+                    },
+                    {
+                        "no": "4.7",
+                        "name": "Some Applications of d- and f-Block Elements",
+                        "formatted_name": "Some_Applications_Of_D_And_Fblock_Elements",
+                        "id": 27,
+                        "chapter_id": 4
+                    }
+                ]
+            },
+            {
+                "no": "5",
+                "name": "Coordination Compounds",
+                "formatted_name": "Coordination_Compounds",
+                "id": 5,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "5.1",
+                        "name": "Werner's Theory of Coordination Compounds",
+                        "formatted_name": "Werners_Theory_Of_Coordination_Compounds",
+                        "id": 28,
+                        "chapter_id": 5
+                    },
+                    {
+                        "no": "5.2",
+                        "name": "Definitions of Some Important Terms Pertaining to Coordination Compounds",
+                        "formatted_name": "Definitions_Of_Some_Important_Terms_Pertaining_To_Coordination_Compounds",
+                        "id": 29,
+                        "chapter_id": 5
+                    },
+                    {
+                        "no": "5.3",
+                        "name": "Nomenclature of Coordination Compounds",
+                        "formatted_name": "Nomenclature_Of_Coordination_Compounds",
+                        "id": 30,
+                        "chapter_id": 5
+                    },
+                    {
+                        "no": "5.4",
+                        "name": "Isomerism in Coordination Compounds",
+                        "formatted_name": "Isomerism_In_Coordination_Compounds",
+                        "id": 31,
+                        "chapter_id": 5
+                    },
+                    {
+                        "no": "5.5",
+                        "name": "Bonding in Coordination Compounds",
+                        "formatted_name": "Bonding_In_Coordination_Compounds",
+                        "id": 32,
+                        "chapter_id": 5
+                    },
+                    {
+                        "no": "5.6",
+                        "name": "Bonding in Metal Carbonyls",
+                        "formatted_name": "Bonding_In_Metal_Carbonyls",
+                        "id": 33,
+                        "chapter_id": 5
+                    },
+                    {
+                        "no": "5.7",
+                        "name": "Importance and Applications of Coordination Compounds",
+                        "formatted_name": "Importance_And_Applications_Of_Coordination_Compounds",
+                        "id": 34,
+                        "chapter_id": 5
+                    }
+                ]
+            },
+            {
+                "no": "6",
+                "name": "Haloalkanes and Haloarenes",
+                "formatted_name": "Haloalkanes_And_Haloarenes",
+                "id": 6,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "6.1",
+                        "name": "Classification",
+                        "formatted_name": "Classification",
+                        "id": 35,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.2",
+                        "name": "Nomenclature",
+                        "formatted_name": "Nomenclature",
+                        "id": 36,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.3",
+                        "name": "Nature of C–X Bond",
+                        "formatted_name": "Nature_Of_Cx_Bond",
+                        "id": 37,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.4",
+                        "name": "Methods of Preparation of Haloalkanes",
+                        "formatted_name": "Methods_Of_Preparation_Of_Haloalkanes",
+                        "id": 38,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.5",
+                        "name": "Preparation of Haloarenes",
+                        "formatted_name": "Preparation_Of_Haloarenes",
+                        "id": 39,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.6",
+                        "name": "Physical Properties",
+                        "formatted_name": "Physical_Properties",
+                        "id": 40,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.7",
+                        "name": "Chemical Reactions",
+                        "formatted_name": "Chemical_Reactions",
+                        "id": 41,
+                        "chapter_id": 6
+                    },
+                    {
+                        "no": "6.8",
+                        "name": "Polyhalogen Compounds",
+                        "formatted_name": "Polyhalogen_Compounds",
+                        "id": 42,
+                        "chapter_id": 6
+                    }
+                ]
+            },
+            {
+                "no": "7",
+                "name": "Alcohols, Phenols and Ethers",
+                "formatted_name": "Alcohols_Phenols_And_Ethers",
+                "id": 7,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "7.1",
+                        "name": "Classification",
+                        "formatted_name": "Classification",
+                        "id": 43,
+                        "chapter_id": 7
+                    },
+                    {
+                        "no": "7.2",
+                        "name": "Nomenclature",
+                        "formatted_name": "Nomenclature",
+                        "id": 44,
+                        "chapter_id": 7
+                    },
+                    {
+                        "no": "7.3",
+                        "name": "Structures of Functional Groups",
+                        "formatted_name": "Structures_Of_Functional_Groups",
+                        "id": 45,
+                        "chapter_id": 7
+                    },
+                    {
+                        "no": "7.4",
+                        "name": "Alcohols and Phenols",
+                        "formatted_name": "Alcohols_And_Phenols",
+                        "id": 46,
+                        "chapter_id": 7
+                    },
+                    {
+                        "no": "7.5",
+                        "name": "Some Commercially Important Alcohols",
+                        "formatted_name": "Some_Commercially_Important_Alcohols",
+                        "id": 47,
+                        "chapter_id": 7
+                    },
+                    {
+                        "no": "7.6",
+                        "name": "Ethers",
+                        "formatted_name": "Ethers",
+                        "id": 48,
+                        "chapter_id": 7
+                    }
+                ]
+            },
+            {
+                "no": "8",
+                "name": "Aldehydes, Ketones and Carboxylic Acids",
+                "formatted_name": "Aldehydes_Ketones_And_Carboxylic_Acids",
+                "id": 8,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "8.1",
+                        "name": "Nomenclature and Structure of Carbonyl Group",
+                        "formatted_name": "Nomenclature_And_Structure_Of_Carbonyl_Group",
+                        "id": 49,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.2",
+                        "name": "Preparation of Aldehydes and Ketones",
+                        "formatted_name": "Preparation_Of_Aldehydes_And_Ketones",
+                        "id": 50,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.3",
+                        "name": "Physical Properties",
+                        "formatted_name": "Physical_Properties",
+                        "id": 51,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.4",
+                        "name": "Chemical Reactions",
+                        "formatted_name": "Chemical_Reactions",
+                        "id": 52,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.5",
+                        "name": "Uses of Aldehydes and Ketones",
+                        "formatted_name": "Uses_Of_Aldehydes_And_Ketones",
+                        "id": 53,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.6",
+                        "name": "Nomenclature and Structure of Carboxyl Group",
+                        "formatted_name": "Nomenclature_And_Structure_Of_Carboxyl_Group",
+                        "id": 54,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.7",
+                        "name": "Methods of Preparation of Carboxylic Acids",
+                        "formatted_name": "Methods_Of_Preparation_Of_Carboxylic_Acids",
+                        "id": 55,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.8",
+                        "name": "Physical Properties",
+                        "formatted_name": "Physical_Properties",
+                        "id": 56,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.9",
+                        "name": "Chemical Reactions",
+                        "formatted_name": "Chemical_Reactions",
+                        "id": 57,
+                        "chapter_id": 8
+                    },
+                    {
+                        "no": "8.10",
+                        "name": "Uses of Carboxylic Acids",
+                        "formatted_name": "Uses_Of_Carboxylic_Acids",
+                        "id": 58,
+                        "chapter_id": 8
+                    }
+                ]
+            },
+            {
+                "no": "9",
+                "name": "Amines",
+                "formatted_name": "Amines",
+                "id": 9,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "9.1",
+                        "name": "Structure of Amines",
+                        "formatted_name": "Structure_Of_Amines",
+                        "id": 59,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.2",
+                        "name": "Classification",
+                        "formatted_name": "Classification",
+                        "id": 60,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.3",
+                        "name": "Nomenclature",
+                        "formatted_name": "Nomenclature",
+                        "id": 61,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.4",
+                        "name": "Preparation of Amines",
+                        "formatted_name": "Preparation_Of_Amines",
+                        "id": 62,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.5",
+                        "name": "Physical Properties",
+                        "formatted_name": "Physical_Properties",
+                        "id": 63,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.6",
+                        "name": "Chemical Reactions",
+                        "formatted_name": "Chemical_Reactions",
+                        "id": 64,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.7",
+                        "name": "Method of Preparation of Diazonium Salts",
+                        "formatted_name": "Method_Of_Preparation_Of_Diazonium_Salts",
+                        "id": 65,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.8",
+                        "name": "Physical Properties",
+                        "formatted_name": "Physical_Properties",
+                        "id": 66,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.9",
+                        "name": "Chemical Reactions",
+                        "formatted_name": "Chemical_Reactions",
+                        "id": 67,
+                        "chapter_id": 9
+                    },
+                    {
+                        "no": "9.10",
+                        "name": "Importance of Diazonium Salts in Synthesis of Aromatic Compounds",
+                        "formatted_name": "Importance_Of_Diazonium_Salts_In_Synthesis_Of_Aromatic_Compounds",
+                        "id": 68,
+                        "chapter_id": 9
+                    }
+                ]
+            },
+            {
+                "no": "10",
+                "name": "Biomolecules",
+                "formatted_name": "Biomolecules",
+                "id": 10,
+                "subject_id": 1,
+                "topics": [
+                    {
+                        "no": "10.1",
+                        "name": "Carbohydrates",
+                        "formatted_name": "Carbohydrates",
+                        "id": 69,
+                        "chapter_id": 10
+                    },
+                    {
+                        "no": "10.2",
+                        "name": "Proteins",
+                        "formatted_name": "Proteins",
+                        "id": 70,
+                        "chapter_id": 10
+                    },
+                    {
+                        "no": "10.3",
+                        "name": "Enzymes",
+                        "formatted_name": "Enzymes",
+                        "id": 71,
+                        "chapter_id": 10
+                    },
+                    {
+                        "no": "10.4",
+                        "name": "Vitamins",
+                        "formatted_name": "Vitamins",
+                        "id": 72,
+                        "chapter_id": 10
+                    },
+                    {
+                        "no": "10.5",
+                        "name": "Nucleic Acids",
+                        "formatted_name": "Nucleic_Acids",
+                        "id": 73,
+                        "chapter_id": 10
+                    },
+                    {
+                        "no": "10.6",
+                        "name": "Hormones",
+                        "formatted_name": "Hormones",
+                        "id": 74,
+                        "chapter_id": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class_name": "XII",
+        "subject_name": "Physics",
+        "id": 2,
+        "created_at": "2026-01-06T10:31:56.842352",
+        "updated_at": "2026-01-06T10:31:56.842352",
+        "chapters": [
+            {
+                "no": "1",
+                "name": "ELECTRIC CHARGES AND FIELDS",
+                "formatted_name": "Electric_Charges_And_Fields",
+                "id": 11,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "1.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 75,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.2",
+                        "name": "Electric Charge",
+                        "formatted_name": "Electric_Charge",
+                        "id": 76,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.3",
+                        "name": "Conductors and Insulators",
+                        "formatted_name": "Conductors_And_Insulators",
+                        "id": 77,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.4",
+                        "name": "Basic Properties of Electric Charge",
+                        "formatted_name": "Basic_Properties_Of_Electric_Charge",
+                        "id": 78,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.5",
+                        "name": "Coulomb’s Law",
+                        "formatted_name": "Coulombs_Law",
+                        "id": 79,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.6",
+                        "name": "Forces between Multiple Charges",
+                        "formatted_name": "Forces_Between_Multiple_Charges",
+                        "id": 80,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.7",
+                        "name": "Electric Field",
+                        "formatted_name": "Electric_Field",
+                        "id": 81,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.8",
+                        "name": "Electric Field Lines",
+                        "formatted_name": "Electric_Field_Lines",
+                        "id": 82,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.9",
+                        "name": "Electric Flux",
+                        "formatted_name": "Electric_Flux",
+                        "id": 83,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.10",
+                        "name": "Electric Dipole",
+                        "formatted_name": "Electric_Dipole",
+                        "id": 84,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.11",
+                        "name": "Dipole in a Uniform External Field",
+                        "formatted_name": "Dipole_In_A_Uniform_External_Field",
+                        "id": 85,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.12",
+                        "name": "Continuous Charge Distribution",
+                        "formatted_name": "Continuous_Charge_Distribution",
+                        "id": 86,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.13",
+                        "name": "Gauss’s Law",
+                        "formatted_name": "Gausss_Law",
+                        "id": 87,
+                        "chapter_id": 11
+                    },
+                    {
+                        "no": "1.14",
+                        "name": "Applications of Gauss’s Law",
+                        "formatted_name": "Applications_Of_Gausss_Law",
+                        "id": 88,
+                        "chapter_id": 11
+                    }
+                ]
+            },
+            {
+                "no": "2",
+                "name": "ELECTROSTATIC POTENTIAL AND CAPACITANCE",
+                "formatted_name": "Electrostatic_Potential_And_Capacitance",
+                "id": 12,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "2.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 89,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.2",
+                        "name": "Electrostatic Potential",
+                        "formatted_name": "Electrostatic_Potential",
+                        "id": 90,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.3",
+                        "name": "Potential due to a Point Charge",
+                        "formatted_name": "Potential_Due_To_A_Point_Charge",
+                        "id": 91,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.4",
+                        "name": "Potential due to an Electric Dipole",
+                        "formatted_name": "Potential_Due_To_An_Electric_Dipole",
+                        "id": 92,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.5",
+                        "name": "Potential due to a System of Charges",
+                        "formatted_name": "Potential_Due_To_A_System_Of_Charges",
+                        "id": 93,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.6",
+                        "name": "Equipotential Surfaces",
+                        "formatted_name": "Equipotential_Surfaces",
+                        "id": 94,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.7",
+                        "name": "Potential Energy of a System of Charges",
+                        "formatted_name": "Potential_Energy_Of_A_System_Of_Charges",
+                        "id": 95,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.8",
+                        "name": "Potential Energy in an External Field",
+                        "formatted_name": "Potential_Energy_In_An_External_Field",
+                        "id": 96,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.9",
+                        "name": "Electrostatics of Conductors",
+                        "formatted_name": "Electrostatics_Of_Conductors",
+                        "id": 97,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.10",
+                        "name": "Dielectrics and Polarisation",
+                        "formatted_name": "Dielectrics_And_Polarisation",
+                        "id": 98,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.11",
+                        "name": "Capacitors and Capacitance",
+                        "formatted_name": "Capacitors_And_Capacitance",
+                        "id": 99,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.12",
+                        "name": "The Parallel Plate Capacitor",
+                        "formatted_name": "The_Parallel_Plate_Capacitor",
+                        "id": 100,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.13",
+                        "name": "Effect of Dielectric on Capacitance",
+                        "formatted_name": "Effect_Of_Dielectric_On_Capacitance",
+                        "id": 101,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.14",
+                        "name": "Combination of Capacitors",
+                        "formatted_name": "Combination_Of_Capacitors",
+                        "id": 102,
+                        "chapter_id": 12
+                    },
+                    {
+                        "no": "2.15",
+                        "name": "Energy Stored in a Capacitor",
+                        "formatted_name": "Energy_Stored_In_A_Capacitor",
+                        "id": 103,
+                        "chapter_id": 12
+                    }
+                ]
+            },
+            {
+                "no": "3",
+                "name": "CURRENT ELECTRICITY",
+                "formatted_name": "Current_Electricity",
+                "id": 13,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "3.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 104,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.2",
+                        "name": "Electric Current",
+                        "formatted_name": "Electric_Current",
+                        "id": 105,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.3",
+                        "name": "Electric Currents in Conductors",
+                        "formatted_name": "Electric_Currents_In_Conductors",
+                        "id": 106,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.4",
+                        "name": "Ohm’s law",
+                        "formatted_name": "Ohms_Law",
+                        "id": 107,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.5",
+                        "name": "Drift of Electrons and the Origin of Resistivity",
+                        "formatted_name": "Drift_Of_Electrons_And_The_Origin_Of_Resistivity",
+                        "id": 108,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.6",
+                        "name": "Limitations of Ohm’s Law",
+                        "formatted_name": "Limitations_Of_Ohms_Law",
+                        "id": 109,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.7",
+                        "name": "Resistivity of Various Materials",
+                        "formatted_name": "Resistivity_Of_Various_Materials",
+                        "id": 110,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.8",
+                        "name": "Temperature Dependence of Resistivity",
+                        "formatted_name": "Temperature_Dependence_Of_Resistivity",
+                        "id": 111,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.9",
+                        "name": "Electrical Energy, Power",
+                        "formatted_name": "Electrical_Energy_Power",
+                        "id": 112,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.10",
+                        "name": "Cells, emf, Internal Resistance",
+                        "formatted_name": "Cells_Emf_Internal_Resistance",
+                        "id": 113,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.11",
+                        "name": "Cells in Series and in Parallel",
+                        "formatted_name": "Cells_In_Series_And_In_Parallel",
+                        "id": 114,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.12",
+                        "name": "Kirchhoff’s Rules",
+                        "formatted_name": "Kirchhoffs_Rules",
+                        "id": 115,
+                        "chapter_id": 13
+                    },
+                    {
+                        "no": "3.13",
+                        "name": "Wheatstone Bridge",
+                        "formatted_name": "Wheatstone_Bridge",
+                        "id": 116,
+                        "chapter_id": 13
+                    }
+                ]
+            },
+            {
+                "no": "4",
+                "name": "MOVING CHARGES AND MAGNETISM",
+                "formatted_name": "Moving_Charges_And_Magnetism",
+                "id": 14,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "4.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 117,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.2",
+                        "name": "Magnetic Force",
+                        "formatted_name": "Magnetic_Force",
+                        "id": 118,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.3",
+                        "name": "Motion in a Magnetic Field",
+                        "formatted_name": "Motion_In_A_Magnetic_Field",
+                        "id": 119,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.4",
+                        "name": "Magnetic Field due to a Current Element, Biot-Savart Law",
+                        "formatted_name": "Magnetic_Field_Due_To_A_Current_Element_Biotsavart_Law",
+                        "id": 120,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.5",
+                        "name": "Magnetic Field on the Axis of a Circular Current Loop",
+                        "formatted_name": "Magnetic_Field_On_The_Axis_Of_A_Circular_Current_Loop",
+                        "id": 121,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.6",
+                        "name": "Ampere’s Circuital Law",
+                        "formatted_name": "Amperes_Circuital_Law",
+                        "id": 122,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.7",
+                        "name": "The Solenoid",
+                        "formatted_name": "The_Solenoid",
+                        "id": 123,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.8",
+                        "name": "Force between Two Parallel Currents, the Ampere",
+                        "formatted_name": "Force_Between_Two_Parallel_Currents_The_Ampere",
+                        "id": 124,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.9",
+                        "name": "Torque on Current Loop, Magnetic Dipole",
+                        "formatted_name": "Torque_On_Current_Loop_Magnetic_Dipole",
+                        "id": 125,
+                        "chapter_id": 14
+                    },
+                    {
+                        "no": "4.10",
+                        "name": "The Moving Coil Galvanometer",
+                        "formatted_name": "The_Moving_Coil_Galvanometer",
+                        "id": 126,
+                        "chapter_id": 14
+                    }
+                ]
+            },
+            {
+                "no": "5",
+                "name": "MAGNETISM AND MATTER",
+                "formatted_name": "Magnetism_And_Matter",
+                "id": 15,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "5.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 127,
+                        "chapter_id": 15
+                    },
+                    {
+                        "no": "5.2",
+                        "name": "The Bar Magnet",
+                        "formatted_name": "The_Bar_Magnet",
+                        "id": 128,
+                        "chapter_id": 15
+                    },
+                    {
+                        "no": "5.3",
+                        "name": "Magnetism and Gauss’s Law",
+                        "formatted_name": "Magnetism_And_Gausss_Law",
+                        "id": 129,
+                        "chapter_id": 15
+                    },
+                    {
+                        "no": "5.4",
+                        "name": "Magnetisation and Magnetic Intensity",
+                        "formatted_name": "Magnetisation_And_Magnetic_Intensity",
+                        "id": 130,
+                        "chapter_id": 15
+                    },
+                    {
+                        "no": "5.5",
+                        "name": "Magnetic Properties of Materials",
+                        "formatted_name": "Magnetic_Properties_Of_Materials",
+                        "id": 131,
+                        "chapter_id": 15
+                    }
+                ]
+            },
+            {
+                "no": "6",
+                "name": "ELECTROMAGNETIC INDUCTION",
+                "formatted_name": "Electromagnetic_Induction",
+                "id": 16,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "6.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 132,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.2",
+                        "name": "The Experiments of Faraday and Henry",
+                        "formatted_name": "The_Experiments_Of_Faraday_And_Henry",
+                        "id": 133,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.3",
+                        "name": "Magnetic Flux",
+                        "formatted_name": "Magnetic_Flux",
+                        "id": 134,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.4",
+                        "name": "Faraday’s Law of Induction",
+                        "formatted_name": "Faradays_Law_Of_Induction",
+                        "id": 135,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.5",
+                        "name": "Lenz’s Law and Conservation of Energy",
+                        "formatted_name": "Lenzs_Law_And_Conservation_Of_Energy",
+                        "id": 136,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.6",
+                        "name": "Motional Electromotive Force",
+                        "formatted_name": "Motional_Electromotive_Force",
+                        "id": 137,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.7",
+                        "name": "Inductance",
+                        "formatted_name": "Inductance",
+                        "id": 138,
+                        "chapter_id": 16
+                    },
+                    {
+                        "no": "6.8",
+                        "name": "AC Generator",
+                        "formatted_name": "Ac_Generator",
+                        "id": 139,
+                        "chapter_id": 16
+                    }
+                ]
+            },
+            {
+                "no": "7",
+                "name": "ALTERNATING CURRENT",
+                "formatted_name": "Alternating_Current",
+                "id": 17,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "7.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 140,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.2",
+                        "name": "AC Voltage Applied to a Resistor",
+                        "formatted_name": "Ac_Voltage_Applied_To_A_Resistor",
+                        "id": 141,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.3",
+                        "name": "Representation of AC Current and Voltage by Rotating Vectors — Phasors",
+                        "formatted_name": "Representation_Of_Ac_Current_And_Voltage_By_Rotating_Vectors_Phasors",
+                        "id": 142,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.4",
+                        "name": "AC Voltage Applied to an Inductor",
+                        "formatted_name": "Ac_Voltage_Applied_To_An_Inductor",
+                        "id": 143,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.5",
+                        "name": "AC Voltage Applied to a Capacitor",
+                        "formatted_name": "Ac_Voltage_Applied_To_A_Capacitor",
+                        "id": 144,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.6",
+                        "name": "AC Voltage Applied to a Series LCR Circuit",
+                        "formatted_name": "Ac_Voltage_Applied_To_A_Series_Lcr_Circuit",
+                        "id": 145,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.7",
+                        "name": "Power in AC Circuit: The Power Factor",
+                        "formatted_name": "Power_In_Ac_Circuit_The_Power_Factor",
+                        "id": 146,
+                        "chapter_id": 17
+                    },
+                    {
+                        "no": "7.8",
+                        "name": "Transformers",
+                        "formatted_name": "Transformers",
+                        "id": 147,
+                        "chapter_id": 17
+                    }
+                ]
+            },
+            {
+                "no": "8",
+                "name": "ELECTROMAGNETIC WAVES",
+                "formatted_name": "Electromagnetic_Waves",
+                "id": 18,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "8.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 148,
+                        "chapter_id": 18
+                    },
+                    {
+                        "no": "8.2",
+                        "name": "Displacement Current",
+                        "formatted_name": "Displacement_Current",
+                        "id": 149,
+                        "chapter_id": 18
+                    },
+                    {
+                        "no": "8.3",
+                        "name": "Electromagnetic Waves",
+                        "formatted_name": "Electromagnetic_Waves",
+                        "id": 150,
+                        "chapter_id": 18
+                    },
+                    {
+                        "no": "8.4",
+                        "name": "Electromagnetic Spectrum",
+                        "formatted_name": "Electromagnetic_Spectrum",
+                        "id": 151,
+                        "chapter_id": 18
+                    }
+                ]
+            },
+            {
+                "no": "9",
+                "name": "RAY OPTICS AND OPTICAL INSTRUMENTS",
+                "formatted_name": "Ray_Optics_And_Optical_Instruments",
+                "id": 19,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "9.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 152,
+                        "chapter_id": 19
+                    },
+                    {
+                        "no": "9.2",
+                        "name": "Reflection of Light by Spherical Mirrors",
+                        "formatted_name": "Reflection_Of_Light_By_Spherical_Mirrors",
+                        "id": 153,
+                        "chapter_id": 19
+                    },
+                    {
+                        "no": "9.3",
+                        "name": "Refraction",
+                        "formatted_name": "Refraction",
+                        "id": 154,
+                        "chapter_id": 19
+                    },
+                    {
+                        "no": "9.4",
+                        "name": "Total Internal Reflection",
+                        "formatted_name": "Total_Internal_Reflection",
+                        "id": 155,
+                        "chapter_id": 19
+                    },
+                    {
+                        "no": "9.5",
+                        "name": "Refraction at Spherical Surfaces and by Lenses",
+                        "formatted_name": "Refraction_At_Spherical_Surfaces_And_By_Lenses",
+                        "id": 156,
+                        "chapter_id": 19
+                    },
+                    {
+                        "no": "9.6",
+                        "name": "Refraction through a Prism",
+                        "formatted_name": "Refraction_Through_A_Prism",
+                        "id": 157,
+                        "chapter_id": 19
+                    },
+                    {
+                        "no": "9.7",
+                        "name": "Optical Instruments",
+                        "formatted_name": "Optical_Instruments",
+                        "id": 158,
+                        "chapter_id": 19
+                    }
+                ]
+            },
+            {
+                "no": "10",
+                "name": "WAVE OPTICS",
+                "formatted_name": "Wave_Optics",
+                "id": 20,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "10.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 159,
+                        "chapter_id": 20
+                    },
+                    {
+                        "no": "10.2",
+                        "name": "Huygens Principle",
+                        "formatted_name": "Huygens_Principle",
+                        "id": 160,
+                        "chapter_id": 20
+                    },
+                    {
+                        "no": "10.3",
+                        "name": "Refraction and Reflection of Plane Waves using Huygens Principle",
+                        "formatted_name": "Refraction_And_Reflection_Of_Plane_Waves_Using_Huygens_Principle",
+                        "id": 161,
+                        "chapter_id": 20
+                    },
+                    {
+                        "no": "10.4",
+                        "name": "Coherent and Incoherent Addition of Waves",
+                        "formatted_name": "Coherent_And_Incoherent_Addition_Of_Waves",
+                        "id": 162,
+                        "chapter_id": 20
+                    },
+                    {
+                        "no": "10.5",
+                        "name": "Interference of Light Waves and Young’s Experiment",
+                        "formatted_name": "Interference_Of_Light_Waves_And_Youngs_Experiment",
+                        "id": 163,
+                        "chapter_id": 20
+                    },
+                    {
+                        "no": "10.6",
+                        "name": "Diffraction",
+                        "formatted_name": "Diffraction",
+                        "id": 164,
+                        "chapter_id": 20
+                    },
+                    {
+                        "no": "10.7",
+                        "name": "Polarisation",
+                        "formatted_name": "Polarisation",
+                        "id": 165,
+                        "chapter_id": 20
+                    }
+                ]
+            },
+            {
+                "no": "11",
+                "name": "DUAL NATURE OF RADIATION AND MATTER",
+                "formatted_name": "Dual_Nature_Of_Radiation_And_Matter",
+                "id": 21,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "11.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 166,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.2",
+                        "name": "Electron Emission",
+                        "formatted_name": "Electron_Emission",
+                        "id": 167,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.3",
+                        "name": "Photoelectric Effect",
+                        "formatted_name": "Photoelectric_Effect",
+                        "id": 168,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.4",
+                        "name": "Experimental Study of Photoelectric Effect",
+                        "formatted_name": "Experimental_Study_Of_Photoelectric_Effect",
+                        "id": 169,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.5",
+                        "name": "Photoelectric Effect and Wave Theory of Light",
+                        "formatted_name": "Photoelectric_Effect_And_Wave_Theory_Of_Light",
+                        "id": 170,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.6",
+                        "name": "Einstein’s Photoelectric Equation: Energy Quantum of Radiation",
+                        "formatted_name": "Einsteins_Photoelectric_Equation_Energy_Quantum_Of_Radiation",
+                        "id": 171,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.7",
+                        "name": "Particle Nature of Light: The Photon",
+                        "formatted_name": "Particle_Nature_Of_Light_The_Photon",
+                        "id": 172,
+                        "chapter_id": 21
+                    },
+                    {
+                        "no": "11.8",
+                        "name": "Wave Nature of Matter",
+                        "formatted_name": "Wave_Nature_Of_Matter",
+                        "id": 173,
+                        "chapter_id": 21
+                    }
+                ]
+            },
+            {
+                "no": "12",
+                "name": "ATOMS",
+                "formatted_name": "Atoms",
+                "id": 22,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "12.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 174,
+                        "chapter_id": 22
+                    },
+                    {
+                        "no": "12.2",
+                        "name": "Alpha-particle Scattering and Rutherford’s Nuclear Model of Atom",
+                        "formatted_name": "Alphaparticle_Scattering_And_Rutherfords_Nuclear_Model_Of_Atom",
+                        "id": 175,
+                        "chapter_id": 22
+                    },
+                    {
+                        "no": "12.3",
+                        "name": "Atomic Spectra",
+                        "formatted_name": "Atomic_Spectra",
+                        "id": 176,
+                        "chapter_id": 22
+                    },
+                    {
+                        "no": "12.4",
+                        "name": "Bohr Model of the Hydrogen Atom",
+                        "formatted_name": "Bohr_Model_Of_The_Hydrogen_Atom",
+                        "id": 177,
+                        "chapter_id": 22
+                    },
+                    {
+                        "no": "12.5",
+                        "name": "The Line Spectra of the Hydrogen Atom",
+                        "formatted_name": "The_Line_Spectra_Of_The_Hydrogen_Atom",
+                        "id": 178,
+                        "chapter_id": 22
+                    },
+                    {
+                        "no": "12.6",
+                        "name": "DE Broglie’s Explanation of Bohr’s Second Postulate of Quantisation",
+                        "formatted_name": "De_Broglies_Explanation_Of_Bohrs_Second_Postulate_Of_Quantisation",
+                        "id": 179,
+                        "chapter_id": 22
+                    }
+                ]
+            },
+            {
+                "no": "13",
+                "name": "NUCLEI",
+                "formatted_name": "Nuclei",
+                "id": 23,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "13.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 180,
+                        "chapter_id": 23
+                    },
+                    {
+                        "no": "13.2",
+                        "name": "Atomic Masses and Composition of Nucleus",
+                        "formatted_name": "Atomic_Masses_And_Composition_Of_Nucleus",
+                        "id": 181,
+                        "chapter_id": 23
+                    },
+                    {
+                        "no": "13.3",
+                        "name": "Size of the Nucleus",
+                        "formatted_name": "Size_Of_The_Nucleus",
+                        "id": 182,
+                        "chapter_id": 23
+                    },
+                    {
+                        "no": "13.4",
+                        "name": "Mass-Energy and Nuclear Binding Energy",
+                        "formatted_name": "Massenergy_And_Nuclear_Binding_Energy",
+                        "id": 183,
+                        "chapter_id": 23
+                    },
+                    {
+                        "no": "13.5",
+                        "name": "Nuclear Force",
+                        "formatted_name": "Nuclear_Force",
+                        "id": 184,
+                        "chapter_id": 23
+                    },
+                    {
+                        "no": "13.6",
+                        "name": "Radioactivity",
+                        "formatted_name": "Radioactivity",
+                        "id": 185,
+                        "chapter_id": 23
+                    },
+                    {
+                        "no": "13.7",
+                        "name": "Nuclear Energy",
+                        "formatted_name": "Nuclear_Energy",
+                        "id": 186,
+                        "chapter_id": 23
+                    }
+                ]
+            },
+            {
+                "no": "14",
+                "name": "SEMICONDUCTOR ELECTRONICS : MATERIALS , DEVICES AND SIMPLE CIRCUITS",
+                "formatted_name": "Semiconductor_Electronics_Materials_Devices_And_Simple_Circuits",
+                "id": 24,
+                "subject_id": 2,
+                "topics": [
+                    {
+                        "no": "14.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 187,
+                        "chapter_id": 24
+                    },
+                    {
+                        "no": "14.2",
+                        "name": "Classification of Metals, Conductors and Semiconductors",
+                        "formatted_name": "Classification_Of_Metals_Conductors_And_Semiconductors",
+                        "id": 188,
+                        "chapter_id": 24
+                    },
+                    {
+                        "no": "14.3",
+                        "name": "Intrinsic Semiconductor",
+                        "formatted_name": "Intrinsic_Semiconductor",
+                        "id": 189,
+                        "chapter_id": 24
+                    },
+                    {
+                        "no": "14.4",
+                        "name": "Extrinsic Semiconductor",
+                        "formatted_name": "Extrinsic_Semiconductor",
+                        "id": 190,
+                        "chapter_id": 24
+                    },
+                    {
+                        "no": "14.5",
+                        "name": "p-n Junction",
+                        "formatted_name": "Pn_Junction",
+                        "id": 191,
+                        "chapter_id": 24
+                    },
+                    {
+                        "no": "14.6",
+                        "name": "Semiconductor Diode",
+                        "formatted_name": "Semiconductor_Diode",
+                        "id": 192,
+                        "chapter_id": 24
+                    },
+                    {
+                        "no": "14.7",
+                        "name": "Application of Junction Diode as a Rectifier",
+                        "formatted_name": "Application_Of_Junction_Diode_As_A_Rectifier",
+                        "id": 193,
+                        "chapter_id": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class_name": "XI",
+        "subject_name": "Physics",
+        "id": 3,
+        "created_at": "2026-01-06T10:31:57.534176",
+        "updated_at": "2026-01-06T10:31:57.534176",
+        "chapters": [
+            {
+                "no": "1",
+                "name": "UNITS AND MEASUREMENTS",
+                "formatted_name": "Units_And_Measurements",
+                "id": 25,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "1.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 194,
+                        "chapter_id": 25
+                    },
+                    {
+                        "no": "1.2",
+                        "name": "The international system of units",
+                        "formatted_name": "The_International_System_Of_Units",
+                        "id": 195,
+                        "chapter_id": 25
+                    },
+                    {
+                        "no": "1.3",
+                        "name": "Significant figures",
+                        "formatted_name": "Significant_Figures",
+                        "id": 196,
+                        "chapter_id": 25
+                    },
+                    {
+                        "no": "1.4",
+                        "name": "Dimensions of physical quantities",
+                        "formatted_name": "Dimensions_Of_Physical_Quantities",
+                        "id": 197,
+                        "chapter_id": 25
+                    },
+                    {
+                        "no": "1.5",
+                        "name": "Dimensional formulae and dimensional equations",
+                        "formatted_name": "Dimensional_Formulae_And_Dimensional_Equations",
+                        "id": 198,
+                        "chapter_id": 25
+                    },
+                    {
+                        "no": "1.6",
+                        "name": "Dimensional analysis and its applications",
+                        "formatted_name": "Dimensional_Analysis_And_Its_Applications",
+                        "id": 199,
+                        "chapter_id": 25
+                    }
+                ]
+            },
+            {
+                "no": "2",
+                "name": "MOTION IN A STRAIGHT LINE",
+                "formatted_name": "Motion_In_A_Straight_Line",
+                "id": 26,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "2.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 200,
+                        "chapter_id": 26
+                    },
+                    {
+                        "no": "2.2",
+                        "name": "Instantaneous velocity and speed",
+                        "formatted_name": "Instantaneous_Velocity_And_Speed",
+                        "id": 201,
+                        "chapter_id": 26
+                    },
+                    {
+                        "no": "2.3",
+                        "name": "Acceleration",
+                        "formatted_name": "Acceleration",
+                        "id": 202,
+                        "chapter_id": 26
+                    },
+                    {
+                        "no": "2.4",
+                        "name": "Kinematic equations for uniformly accelerated motion",
+                        "formatted_name": "Kinematic_Equations_For_Uniformly_Accelerated_Motion",
+                        "id": 203,
+                        "chapter_id": 26
+                    }
+                ]
+            },
+            {
+                "no": "3",
+                "name": "MOTION IN A PLANE",
+                "formatted_name": "Motion_In_A_Plane",
+                "id": 27,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "3.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 204,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.2",
+                        "name": "Scalars and vectors",
+                        "formatted_name": "Scalars_And_Vectors",
+                        "id": 205,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.3",
+                        "name": "Multiplication of vectors by real numbers",
+                        "formatted_name": "Multiplication_Of_Vectors_By_Real_Numbers",
+                        "id": 206,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.4",
+                        "name": "Addition and subtraction of vectors – graphical method",
+                        "formatted_name": "Addition_And_Subtraction_Of_Vectors_Graphical_Method",
+                        "id": 207,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.5",
+                        "name": "Resolution of vectors",
+                        "formatted_name": "Resolution_Of_Vectors",
+                        "id": 208,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.6",
+                        "name": "Vector addition – analytical method",
+                        "formatted_name": "Vector_Addition_Analytical_Method",
+                        "id": 209,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.7",
+                        "name": "Motion in a plane",
+                        "formatted_name": "Motion_In_A_Plane",
+                        "id": 210,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.8",
+                        "name": "Motion in a plane with constant acceleration",
+                        "formatted_name": "Motion_In_A_Plane_With_Constant_Acceleration",
+                        "id": 211,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.9",
+                        "name": "Projectile motion",
+                        "formatted_name": "Projectile_Motion",
+                        "id": 212,
+                        "chapter_id": 27
+                    },
+                    {
+                        "no": "3.10",
+                        "name": "Uniform circular motion",
+                        "formatted_name": "Uniform_Circular_Motion",
+                        "id": 213,
+                        "chapter_id": 27
+                    }
+                ]
+            },
+            {
+                "no": "4",
+                "name": "LAWS OF MOTION",
+                "formatted_name": "Laws_Of_Motion",
+                "id": 28,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "4.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 214,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.2",
+                        "name": "Aristotle’s fallacy",
+                        "formatted_name": "Aristotles_Fallacy",
+                        "id": 215,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.3",
+                        "name": "The law of inertia",
+                        "formatted_name": "The_Law_Of_Inertia",
+                        "id": 216,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.4",
+                        "name": "Newton’s first law of motion",
+                        "formatted_name": "Newtons_First_Law_Of_Motion",
+                        "id": 217,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.5",
+                        "name": "Newton’s second law of motion",
+                        "formatted_name": "Newtons_Second_Law_Of_Motion",
+                        "id": 218,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.6",
+                        "name": "Newton’s third law of motion",
+                        "formatted_name": "Newtons_Third_Law_Of_Motion",
+                        "id": 219,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.7",
+                        "name": "Conservation of momentum",
+                        "formatted_name": "Conservation_Of_Momentum",
+                        "id": 220,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.8",
+                        "name": "Equilibrium of a particle",
+                        "formatted_name": "Equilibrium_Of_A_Particle",
+                        "id": 221,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.9",
+                        "name": "Common forces in mechanics",
+                        "formatted_name": "Common_Forces_In_Mechanics",
+                        "id": 222,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.10",
+                        "name": "Circular motion",
+                        "formatted_name": "Circular_Motion",
+                        "id": 223,
+                        "chapter_id": 28
+                    },
+                    {
+                        "no": "4.11",
+                        "name": "Solving problems in mechanics",
+                        "formatted_name": "Solving_Problems_In_Mechanics",
+                        "id": 224,
+                        "chapter_id": 28
+                    }
+                ]
+            },
+            {
+                "no": "5",
+                "name": "WORK, ENERGY AND POWER",
+                "formatted_name": "Work_Energy_And_Power",
+                "id": 29,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "5.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 225,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.2",
+                        "name": "Notions of work and kinetic energy : The work-energy theorem",
+                        "formatted_name": "Notions_Of_Work_And_Kinetic_Energy_The_Workenergy_Theorem",
+                        "id": 226,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.3",
+                        "name": "Work",
+                        "formatted_name": "Work",
+                        "id": 227,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.4",
+                        "name": "Kinetic energy",
+                        "formatted_name": "Kinetic_Energy",
+                        "id": 228,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.5",
+                        "name": "Work done by a variable force",
+                        "formatted_name": "Work_Done_By_A_Variable_Force",
+                        "id": 229,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.6",
+                        "name": "The work-energy theorem for a variable force",
+                        "formatted_name": "The_Workenergy_Theorem_For_A_Variable_Force",
+                        "id": 230,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.7",
+                        "name": "The concept of potential energy",
+                        "formatted_name": "The_Concept_Of_Potential_Energy",
+                        "id": 231,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.8",
+                        "name": "The conservation of mechanical energy",
+                        "formatted_name": "The_Conservation_Of_Mechanical_Energy",
+                        "id": 232,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.9",
+                        "name": "The potential energy of a spring",
+                        "formatted_name": "The_Potential_Energy_Of_A_Spring",
+                        "id": 233,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.10",
+                        "name": "Power",
+                        "formatted_name": "Power",
+                        "id": 234,
+                        "chapter_id": 29
+                    },
+                    {
+                        "no": "5.11",
+                        "name": "Collisions",
+                        "formatted_name": "Collisions",
+                        "id": 235,
+                        "chapter_id": 29
+                    }
+                ]
+            },
+            {
+                "no": "6",
+                "name": "SYSTEM OF PARTICLES AND ROTATIONAL MOTION",
+                "formatted_name": "System_Of_Particles_And_Rotational_Motion",
+                "id": 30,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "6.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 236,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.2",
+                        "name": "Centre of mass",
+                        "formatted_name": "Centre_Of_Mass",
+                        "id": 237,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.3",
+                        "name": "Motion of centre of mass",
+                        "formatted_name": "Motion_Of_Centre_Of_Mass",
+                        "id": 238,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.4",
+                        "name": "Linear momentum of a system of particles",
+                        "formatted_name": "Linear_Momentum_Of_A_System_Of_Particles",
+                        "id": 239,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.5",
+                        "name": "Vector product of two vectors",
+                        "formatted_name": "Vector_Product_Of_Two_Vectors",
+                        "id": 240,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.6",
+                        "name": "Angular velocity and its relation with linear velocity",
+                        "formatted_name": "Angular_Velocity_And_Its_Relation_With_Linear_Velocity",
+                        "id": 241,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.7",
+                        "name": "Torque and angular momentum",
+                        "formatted_name": "Torque_And_Angular_Momentum",
+                        "id": 242,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.8",
+                        "name": "Equilibrium of a rigid body",
+                        "formatted_name": "Equilibrium_Of_A_Rigid_Body",
+                        "id": 243,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.9",
+                        "name": "Moment of inertia",
+                        "formatted_name": "Moment_Of_Inertia",
+                        "id": 244,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.10",
+                        "name": "Kinematics of rotational motion about a fixed axis",
+                        "formatted_name": "Kinematics_Of_Rotational_Motion_About_A_Fixed_Axis",
+                        "id": 245,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.11",
+                        "name": "Dynamics of rotational motion about a fixed axis",
+                        "formatted_name": "Dynamics_Of_Rotational_Motion_About_A_Fixed_Axis",
+                        "id": 246,
+                        "chapter_id": 30
+                    },
+                    {
+                        "no": "6.12",
+                        "name": "Angular momentum in case of rotations about a fixed axis",
+                        "formatted_name": "Angular_Momentum_In_Case_Of_Rotations_About_A_Fixed_Axis",
+                        "id": 247,
+                        "chapter_id": 30
+                    }
+                ]
+            },
+            {
+                "no": "7",
+                "name": "GRAVITATION",
+                "formatted_name": "Gravitation",
+                "id": 31,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "7.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 248,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.2",
+                        "name": "Kepler’s laws",
+                        "formatted_name": "Keplers_Laws",
+                        "id": 249,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.3",
+                        "name": "Universal law of gravitation",
+                        "formatted_name": "Universal_Law_Of_Gravitation",
+                        "id": 250,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.4",
+                        "name": "The gravitational constant",
+                        "formatted_name": "The_Gravitational_Constant",
+                        "id": 251,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.5",
+                        "name": "Acceleration due to gravity of the earth",
+                        "formatted_name": "Acceleration_Due_To_Gravity_Of_The_Earth",
+                        "id": 252,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.6",
+                        "name": "Acceleration due to gravity below and above the surface of earth",
+                        "formatted_name": "Acceleration_Due_To_Gravity_Below_And_Above_The_Surface_Of_Earth",
+                        "id": 253,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.7",
+                        "name": "Gravitational potential energy",
+                        "formatted_name": "Gravitational_Potential_Energy",
+                        "id": 254,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.8",
+                        "name": "Escape speed",
+                        "formatted_name": "Escape_Speed",
+                        "id": 255,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.9",
+                        "name": "Earth satellites",
+                        "formatted_name": "Earth_Satellites",
+                        "id": 256,
+                        "chapter_id": 31
+                    },
+                    {
+                        "no": "7.10",
+                        "name": "Energy of an orbiting satellite",
+                        "formatted_name": "Energy_Of_An_Orbiting_Satellite",
+                        "id": 257,
+                        "chapter_id": 31
+                    }
+                ]
+            },
+            {
+                "no": "8",
+                "name": "MECHANICAL PROPERTIES OF SOLIDS",
+                "formatted_name": "Mechanical_Properties_Of_Solids",
+                "id": 32,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "8.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 258,
+                        "chapter_id": 32
+                    },
+                    {
+                        "no": "8.2",
+                        "name": "Stress and strain",
+                        "formatted_name": "Stress_And_Strain",
+                        "id": 259,
+                        "chapter_id": 32
+                    },
+                    {
+                        "no": "8.3",
+                        "name": "Hooke’s law",
+                        "formatted_name": "Hookes_Law",
+                        "id": 260,
+                        "chapter_id": 32
+                    },
+                    {
+                        "no": "8.4",
+                        "name": "Stress-strain curve",
+                        "formatted_name": "Stressstrain_Curve",
+                        "id": 261,
+                        "chapter_id": 32
+                    },
+                    {
+                        "no": "8.5",
+                        "name": "Elastic moduli",
+                        "formatted_name": "Elastic_Moduli",
+                        "id": 262,
+                        "chapter_id": 32
+                    },
+                    {
+                        "no": "8.6",
+                        "name": "Applications of elastic behaviour of materials",
+                        "formatted_name": "Applications_Of_Elastic_Behaviour_Of_Materials",
+                        "id": 263,
+                        "chapter_id": 32
+                    }
+                ]
+            },
+            {
+                "no": "9",
+                "name": "MECHANICAL PROPERTIES OF FLUIDS",
+                "formatted_name": "Mechanical_Properties_Of_Fluids",
+                "id": 33,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "9.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 264,
+                        "chapter_id": 33
+                    },
+                    {
+                        "no": "9.2",
+                        "name": "Pressure",
+                        "formatted_name": "Pressure",
+                        "id": 265,
+                        "chapter_id": 33
+                    },
+                    {
+                        "no": "9.3",
+                        "name": "Streamline flow",
+                        "formatted_name": "Streamline_Flow",
+                        "id": 266,
+                        "chapter_id": 33
+                    },
+                    {
+                        "no": "9.4",
+                        "name": "Bernoulli’s principle",
+                        "formatted_name": "Bernoullis_Principle",
+                        "id": 267,
+                        "chapter_id": 33
+                    },
+                    {
+                        "no": "9.5",
+                        "name": "Viscosity",
+                        "formatted_name": "Viscosity",
+                        "id": 268,
+                        "chapter_id": 33
+                    },
+                    {
+                        "no": "9.6",
+                        "name": "Surface tension",
+                        "formatted_name": "Surface_Tension",
+                        "id": 269,
+                        "chapter_id": 33
+                    }
+                ]
+            },
+            {
+                "no": "10",
+                "name": "THERMAL PROPERTIES OF MATTER",
+                "formatted_name": "Thermal_Properties_Of_Matter",
+                "id": 34,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "10.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 270,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.2",
+                        "name": "Temperature and heat",
+                        "formatted_name": "Temperature_And_Heat",
+                        "id": 271,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.3",
+                        "name": "Measurement of temperature",
+                        "formatted_name": "Measurement_Of_Temperature",
+                        "id": 272,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.4",
+                        "name": "Ideal-gas equation and absolute temperature",
+                        "formatted_name": "Idealgas_Equation_And_Absolute_Temperature",
+                        "id": 273,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.5",
+                        "name": "Thermal expansion",
+                        "formatted_name": "Thermal_Expansion",
+                        "id": 274,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.6",
+                        "name": "Specific heat capacity",
+                        "formatted_name": "Specific_Heat_Capacity",
+                        "id": 275,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.7",
+                        "name": "Calorimetry",
+                        "formatted_name": "Calorimetry",
+                        "id": 276,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.8",
+                        "name": "Change of state",
+                        "formatted_name": "Change_Of_State",
+                        "id": 277,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.9",
+                        "name": "Heat transfer",
+                        "formatted_name": "Heat_Transfer",
+                        "id": 278,
+                        "chapter_id": 34
+                    },
+                    {
+                        "no": "10.10",
+                        "name": "Newton’s law of cooling",
+                        "formatted_name": "Newtons_Law_Of_Cooling",
+                        "id": 279,
+                        "chapter_id": 34
+                    }
+                ]
+            },
+            {
+                "no": "11",
+                "name": "THERMODYNAMICS",
+                "formatted_name": "Thermodynamics",
+                "id": 35,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "11.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 280,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.2",
+                        "name": "Thermal equilibrium",
+                        "formatted_name": "Thermal_Equilibrium",
+                        "id": 281,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.3",
+                        "name": "Zeroth law of thermodynamics",
+                        "formatted_name": "Zeroth_Law_Of_Thermodynamics",
+                        "id": 282,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.4",
+                        "name": "Heat, internal energy and work",
+                        "formatted_name": "Heat_Internal_Energy_And_Work",
+                        "id": 283,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.5",
+                        "name": "First law of thermodynamics",
+                        "formatted_name": "First_Law_Of_Thermodynamics",
+                        "id": 284,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.6",
+                        "name": "Specific heat capacity",
+                        "formatted_name": "Specific_Heat_Capacity",
+                        "id": 285,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.7",
+                        "name": "Thermodynamic state variables and equation of state",
+                        "formatted_name": "Thermodynamic_State_Variables_And_Equation_Of_State",
+                        "id": 286,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.8",
+                        "name": "Thermodynamic processes",
+                        "formatted_name": "Thermodynamic_Processes",
+                        "id": 287,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.9",
+                        "name": "Second law of thermodynamics",
+                        "formatted_name": "Second_Law_Of_Thermodynamics",
+                        "id": 288,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.10",
+                        "name": "Reversible and irreversible processes",
+                        "formatted_name": "Reversible_And_Irreversible_Processes",
+                        "id": 289,
+                        "chapter_id": 35
+                    },
+                    {
+                        "no": "11.11",
+                        "name": "Carnot engine",
+                        "formatted_name": "Carnot_Engine",
+                        "id": 290,
+                        "chapter_id": 35
+                    }
+                ]
+            },
+            {
+                "no": "12",
+                "name": "KINETIC THEORY",
+                "formatted_name": "Kinetic_Theory",
+                "id": 36,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "12.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 291,
+                        "chapter_id": 36
+                    },
+                    {
+                        "no": "12.2",
+                        "name": "Molecular nature of matter",
+                        "formatted_name": "Molecular_Nature_Of_Matter",
+                        "id": 292,
+                        "chapter_id": 36
+                    },
+                    {
+                        "no": "12.3",
+                        "name": "Behaviour of gases",
+                        "formatted_name": "Behaviour_Of_Gases",
+                        "id": 293,
+                        "chapter_id": 36
+                    },
+                    {
+                        "no": "12.4",
+                        "name": "Kinetic theory of an ideal gas",
+                        "formatted_name": "Kinetic_Theory_Of_An_Ideal_Gas",
+                        "id": 294,
+                        "chapter_id": 36
+                    },
+                    {
+                        "no": "12.5",
+                        "name": "Law of equipartition of energy",
+                        "formatted_name": "Law_Of_Equipartition_Of_Energy",
+                        "id": 295,
+                        "chapter_id": 36
+                    },
+                    {
+                        "no": "12.6",
+                        "name": "Specific heat capacity",
+                        "formatted_name": "Specific_Heat_Capacity",
+                        "id": 296,
+                        "chapter_id": 36
+                    },
+                    {
+                        "no": "12.7",
+                        "name": "Mean free path",
+                        "formatted_name": "Mean_Free_Path",
+                        "id": 297,
+                        "chapter_id": 36
+                    }
+                ]
+            },
+            {
+                "no": "13",
+                "name": "OSCILLATIONS",
+                "formatted_name": "Oscillations",
+                "id": 37,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "13.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 298,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.2",
+                        "name": "Periodic and oscillatory motions",
+                        "formatted_name": "Periodic_And_Oscillatory_Motions",
+                        "id": 299,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.3",
+                        "name": "Simple harmonic motion",
+                        "formatted_name": "Simple_Harmonic_Motion",
+                        "id": 300,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.4",
+                        "name": "Simple harmonic motion and uniform circular motion",
+                        "formatted_name": "Simple_Harmonic_Motion_And_Uniform_Circular_Motion",
+                        "id": 301,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.5",
+                        "name": "Velocity and acceleration in simple harmonic motion",
+                        "formatted_name": "Velocity_And_Acceleration_In_Simple_Harmonic_Motion",
+                        "id": 302,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.6",
+                        "name": "Force law for simple harmonic motion",
+                        "formatted_name": "Force_Law_For_Simple_Harmonic_Motion",
+                        "id": 303,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.7",
+                        "name": "Energy in simple harmonic motion",
+                        "formatted_name": "Energy_In_Simple_Harmonic_Motion",
+                        "id": 304,
+                        "chapter_id": 37
+                    },
+                    {
+                        "no": "13.8",
+                        "name": "The Simple Pendulum",
+                        "formatted_name": "The_Simple_Pendulum",
+                        "id": 305,
+                        "chapter_id": 37
+                    }
+                ]
+            },
+            {
+                "no": "14",
+                "name": "WAVES",
+                "formatted_name": "Waves",
+                "id": 38,
+                "subject_id": 3,
+                "topics": [
+                    {
+                        "no": "14.1",
+                        "name": "Introduction",
+                        "formatted_name": "Introduction",
+                        "id": 306,
+                        "chapter_id": 38
+                    },
+                    {
+                        "no": "14.2",
+                        "name": "Transverse and longitudinal waves",
+                        "formatted_name": "Transverse_And_Longitudinal_Waves",
+                        "id": 307,
+                        "chapter_id": 38
+                    },
+                    {
+                        "no": "14.3",
+                        "name": "Displacement relation in a progressive wave",
+                        "formatted_name": "Displacement_Relation_In_A_Progressive_Wave",
+                        "id": 308,
+                        "chapter_id": 38
+                    },
+                    {
+                        "no": "14.4",
+                        "name": "The speed of a travelling wave",
+                        "formatted_name": "The_Speed_Of_A_Travelling_Wave",
+                        "id": 309,
+                        "chapter_id": 38
+                    },
+                    {
+                        "no": "14.5",
+                        "name": "The principle of superposition of waves",
+                        "formatted_name": "The_Principle_Of_Superposition_Of_Waves",
+                        "id": 310,
+                        "chapter_id": 38
+                    },
+                    {
+                        "no": "14.6",
+                        "name": "Reflection of waves",
+                        "formatted_name": "Reflection_Of_Waves",
+                        "id": 311,
+                        "chapter_id": 38
+                    },
+                    {
+                        "no": "14.7",
+                        "name": "Beats",
+                        "formatted_name": "Beats",
+                        "id": 312,
+                        "chapter_id": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class_name": "XI",
+        "subject_name": "Chemistry",
+        "id": 4,
+        "created_at": "2026-01-06T10:31:57.986887",
+        "updated_at": "2026-01-06T10:31:57.986887",
+        "chapters": [
+            {
+                "no": "1",
+                "name": "Some Basic Concepts of Chemistry",
+                "formatted_name": "Some_Basic_Concepts_Of_Chemistry",
+                "id": 39,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "1.1",
+                        "name": "Importance of Chemistry",
+                        "formatted_name": "Importance_Of_Chemistry",
+                        "id": 313,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.2",
+                        "name": "Nature of Matter",
+                        "formatted_name": "Nature_Of_Matter",
+                        "id": 314,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.3",
+                        "name": "Properties of Matter and their Measurement",
+                        "formatted_name": "Properties_Of_Matter_And_Their_Measurement",
+                        "id": 315,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.4",
+                        "name": "Uncertainty in Measurement",
+                        "formatted_name": "Uncertainty_In_Measurement",
+                        "id": 316,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.5",
+                        "name": "Laws of Chemical Combinations",
+                        "formatted_name": "Laws_Of_Chemical_Combinations",
+                        "id": 317,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.6",
+                        "name": "Dalton’s Atomic Theory",
+                        "formatted_name": "Daltons_Atomic_Theory",
+                        "id": 318,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.7",
+                        "name": "Atomic and Molecular Masses",
+                        "formatted_name": "Atomic_And_Molecular_Masses",
+                        "id": 319,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.8",
+                        "name": "Mole Concept and Molar Masses",
+                        "formatted_name": "Mole_Concept_And_Molar_Masses",
+                        "id": 320,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.9",
+                        "name": "Percentage Composition",
+                        "formatted_name": "Percentage_Composition",
+                        "id": 321,
+                        "chapter_id": 39
+                    },
+                    {
+                        "no": "1.10",
+                        "name": "Stoichiometry and Stoichiometric Calculations",
+                        "formatted_name": "Stoichiometry_And_Stoichiometric_Calculations",
+                        "id": 322,
+                        "chapter_id": 39
+                    }
+                ]
+            },
+            {
+                "no": "2",
+                "name": "Structure of Atom",
+                "formatted_name": "Structure_Of_Atom",
+                "id": 40,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "2.1",
+                        "name": "Discovery of Sub-atomic Particles",
+                        "formatted_name": "Discovery_Of_Subatomic_Particles",
+                        "id": 323,
+                        "chapter_id": 40
+                    },
+                    {
+                        "no": "2.2",
+                        "name": "Atomic Models",
+                        "formatted_name": "Atomic_Models",
+                        "id": 324,
+                        "chapter_id": 40
+                    },
+                    {
+                        "no": "2.3",
+                        "name": "Developments Leading to the Bohr’s Model of Atom",
+                        "formatted_name": "Developments_Leading_To_The_Bohrs_Model_Of_Atom",
+                        "id": 325,
+                        "chapter_id": 40
+                    },
+                    {
+                        "no": "2.4",
+                        "name": "Bohr’s Model for Hydrogen Atom",
+                        "formatted_name": "Bohrs_Model_For_Hydrogen_Atom",
+                        "id": 326,
+                        "chapter_id": 40
+                    },
+                    {
+                        "no": "2.5",
+                        "name": "Towards Quantum Mechanical Model of the Atom",
+                        "formatted_name": "Towards_Quantum_Mechanical_Model_Of_The_Atom",
+                        "id": 327,
+                        "chapter_id": 40
+                    },
+                    {
+                        "no": "2.6",
+                        "name": "Quantum Mechanical Model of Atom",
+                        "formatted_name": "Quantum_Mechanical_Model_Of_Atom",
+                        "id": 328,
+                        "chapter_id": 40
+                    }
+                ]
+            },
+            {
+                "no": "3",
+                "name": "Classification of Elements and Periodicity in Properties",
+                "formatted_name": "Classification_Of_Elements_And_Periodicity_In_Properties",
+                "id": 41,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "3.1",
+                        "name": "Why do we Need to Classify Elements ?",
+                        "formatted_name": "Why_Do_We_Need_To_Classify_Elements_",
+                        "id": 329,
+                        "chapter_id": 41
+                    },
+                    {
+                        "no": "3.2",
+                        "name": "Genesis of Periodic Classification",
+                        "formatted_name": "Genesis_Of_Periodic_Classification",
+                        "id": 330,
+                        "chapter_id": 41
+                    },
+                    {
+                        "no": "3.3",
+                        "name": "Modern Periodic Law and the Present Form of the Periodic Table",
+                        "formatted_name": "Modern_Periodic_Law_And_The_Present_Form_Of_The_Periodic_Table",
+                        "id": 331,
+                        "chapter_id": 41
+                    },
+                    {
+                        "no": "3.4",
+                        "name": "Nomenclature of Elements with Atomic Numbers > 100",
+                        "formatted_name": "Nomenclature_Of_Elements_With_Atomic_Numbers_",
+                        "id": 332,
+                        "chapter_id": 41
+                    },
+                    {
+                        "no": "3.5",
+                        "name": "Electronic Configurations of Elements and the Periodic Table",
+                        "formatted_name": "Electronic_Configurations_Of_Elements_And_The_Periodic_Table",
+                        "id": 333,
+                        "chapter_id": 41
+                    },
+                    {
+                        "no": "3.6",
+                        "name": "Electronic Configurations and Types of Elements: s-, p-, d-, f - Blocks",
+                        "formatted_name": "Electronic_Configurations_And_Types_Of_Elements_S_P_D_F_Blocks",
+                        "id": 334,
+                        "chapter_id": 41
+                    },
+                    {
+                        "no": "3.7",
+                        "name": "Periodic Trends in Properties of Elements",
+                        "formatted_name": "Periodic_Trends_In_Properties_Of_Elements",
+                        "id": 335,
+                        "chapter_id": 41
+                    }
+                ]
+            },
+            {
+                "no": "4",
+                "name": "Chemical Bonding and Molecular Structure",
+                "formatted_name": "Chemical_Bonding_And_Molecular_Structure",
+                "id": 42,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "4.1",
+                        "name": "Kössel-Lewis Approach to Chemical Bonding",
+                        "formatted_name": "Kssellewis_Approach_To_Chemical_Bonding",
+                        "id": 336,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.2",
+                        "name": "Ionic or Electrovalent Bond",
+                        "formatted_name": "Ionic_Or_Electrovalent_Bond",
+                        "id": 337,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.3",
+                        "name": "Bond Parameters",
+                        "formatted_name": "Bond_Parameters",
+                        "id": 338,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.4",
+                        "name": "The Valence Shell Electron Pair Repulsion (VSEPR) Theory",
+                        "formatted_name": "The_Valence_Shell_Electron_Pair_Repulsion_Vsepr_Theory",
+                        "id": 339,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.5",
+                        "name": "Valence Bond Theory",
+                        "formatted_name": "Valence_Bond_Theory",
+                        "id": 340,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.6",
+                        "name": "Hybridisation",
+                        "formatted_name": "Hybridisation",
+                        "id": 341,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.7",
+                        "name": "Molecular Orbital Theory",
+                        "formatted_name": "Molecular_Orbital_Theory",
+                        "id": 342,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.8",
+                        "name": "Bonding in Some Homonuclear Diatomic Molecules",
+                        "formatted_name": "Bonding_In_Some_Homonuclear_Diatomic_Molecules",
+                        "id": 343,
+                        "chapter_id": 42
+                    },
+                    {
+                        "no": "4.9",
+                        "name": "Hydrogen Bonding",
+                        "formatted_name": "Hydrogen_Bonding",
+                        "id": 344,
+                        "chapter_id": 42
+                    }
+                ]
+            },
+            {
+                "no": "5",
+                "name": "Thermodynamics",
+                "formatted_name": "Thermodynamics",
+                "id": 43,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "5.1",
+                        "name": "Thermodynamic Terms",
+                        "formatted_name": "Thermodynamic_Terms",
+                        "id": 345,
+                        "chapter_id": 43
+                    },
+                    {
+                        "no": "5.2",
+                        "name": "Applications",
+                        "formatted_name": "Applications",
+                        "id": 346,
+                        "chapter_id": 43
+                    },
+                    {
+                        "no": "5.3",
+                        "name": "Measurement of ∆U and ∆H: Calorimetry",
+                        "formatted_name": "Measurement_Of_U_And_H_Calorimetry",
+                        "id": 347,
+                        "chapter_id": 43
+                    },
+                    {
+                        "no": "5.4",
+                        "name": "Enthalpy Change, ∆ rH of a Reaction – Reaction Enthalpy",
+                        "formatted_name": "Enthalpy_Change_Rh_Of_A_Reaction_Reaction_Enthalpy",
+                        "id": 348,
+                        "chapter_id": 43
+                    },
+                    {
+                        "no": "5.5",
+                        "name": "Enthalpies for Different Types of Reactions",
+                        "formatted_name": "Enthalpies_For_Different_Types_Of_Reactions",
+                        "id": 349,
+                        "chapter_id": 43
+                    },
+                    {
+                        "no": "5.6",
+                        "name": "Spontaneity",
+                        "formatted_name": "Spontaneity",
+                        "id": 350,
+                        "chapter_id": 43
+                    },
+                    {
+                        "no": "5.7",
+                        "name": "Gibbs Energy Change and Equilibrium",
+                        "formatted_name": "Gibbs_Energy_Change_And_Equilibrium",
+                        "id": 351,
+                        "chapter_id": 43
+                    }
+                ]
+            },
+            {
+                "no": "6",
+                "name": "Equilibrium",
+                "formatted_name": "Equilibrium",
+                "id": 44,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "6.1",
+                        "name": "Equilibrium in Physical Processes",
+                        "formatted_name": "Equilibrium_In_Physical_Processes",
+                        "id": 352,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.2",
+                        "name": "Equilibrium in Chemical Processes – Dynamic Equilibrium",
+                        "formatted_name": "Equilibrium_In_Chemical_Processes_Dynamic_Equilibrium",
+                        "id": 353,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.3",
+                        "name": "Law of Chemical Equilibrium and Equilibrium Constant",
+                        "formatted_name": "Law_Of_Chemical_Equilibrium_And_Equilibrium_Constant",
+                        "id": 354,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.4",
+                        "name": "Homogeneous Equilibria",
+                        "formatted_name": "Homogeneous_Equilibria",
+                        "id": 355,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.5",
+                        "name": "Heterogeneous Equilibria",
+                        "formatted_name": "Heterogeneous_Equilibria",
+                        "id": 356,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.6",
+                        "name": "Applications of Equilibrium Constants",
+                        "formatted_name": "Applications_Of_Equilibrium_Constants",
+                        "id": 357,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.7",
+                        "name": "Relationship between Equilibrium Constant K, Reaction Quotient Q and Gibbs Energy G",
+                        "formatted_name": "Relationship_Between_Equilibrium_Constant_K_Reaction_Quotient_Q_And_Gibbs_Energy_G",
+                        "id": 358,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.8",
+                        "name": "Factors Affecting Equilibria",
+                        "formatted_name": "Factors_Affecting_Equilibria",
+                        "id": 359,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.9",
+                        "name": "Ionic Equilibrium in Solution",
+                        "formatted_name": "Ionic_Equilibrium_In_Solution",
+                        "id": 360,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.10",
+                        "name": "Acids, Bases and Salts",
+                        "formatted_name": "Acids_Bases_And_Salts",
+                        "id": 361,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.11",
+                        "name": "Ionization of Acids and Bases",
+                        "formatted_name": "Ionization_Of_Acids_And_Bases",
+                        "id": 362,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.12",
+                        "name": "Buffer Solutions",
+                        "formatted_name": "Buffer_Solutions",
+                        "id": 363,
+                        "chapter_id": 44
+                    },
+                    {
+                        "no": "6.13",
+                        "name": "Solubility Equilibria of Sparingly Soluble Salts",
+                        "formatted_name": "Solubility_Equilibria_Of_Sparingly_Soluble_Salts",
+                        "id": 364,
+                        "chapter_id": 44
+                    }
+                ]
+            },
+            {
+                "no": "7",
+                "name": "Redox Reactions",
+                "formatted_name": "Redox_Reactions",
+                "id": 45,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "7.1",
+                        "name": "Classical Idea of Redox Reactions-Oxidation and Reduction Reactions",
+                        "formatted_name": "Classical_Idea_Of_Redox_Reactionsoxidation_And_Reduction_Reactions",
+                        "id": 365,
+                        "chapter_id": 45
+                    },
+                    {
+                        "no": "7.2",
+                        "name": "Redox Reactions in Terms of Electron Transfer Reactions",
+                        "formatted_name": "Redox_Reactions_In_Terms_Of_Electron_Transfer_Reactions",
+                        "id": 366,
+                        "chapter_id": 45
+                    },
+                    {
+                        "no": "7.3",
+                        "name": "Oxidation Number",
+                        "formatted_name": "Oxidation_Number",
+                        "id": 367,
+                        "chapter_id": 45
+                    },
+                    {
+                        "no": "7.4",
+                        "name": "Redox Reactions and Electrode Processes",
+                        "formatted_name": "Redox_Reactions_And_Electrode_Processes",
+                        "id": 368,
+                        "chapter_id": 45
+                    }
+                ]
+            },
+            {
+                "no": "8",
+                "name": "Organic Chemistry – Some Basic Principles and Techniques",
+                "formatted_name": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+                "id": 46,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "8.1",
+                        "name": "General Introduction",
+                        "formatted_name": "General_Introduction",
+                        "id": 369,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.2",
+                        "name": "Tetravalence of Carbon: Shapes of Organic Compounds",
+                        "formatted_name": "Tetravalence_Of_Carbon_Shapes_Of_Organic_Compounds",
+                        "id": 370,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.3",
+                        "name": "Structural Representations of Organic Compounds",
+                        "formatted_name": "Structural_Representations_Of_Organic_Compounds",
+                        "id": 371,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.4",
+                        "name": "Classification of Organic Compounds",
+                        "formatted_name": "Classification_Of_Organic_Compounds",
+                        "id": 372,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.5",
+                        "name": "Nomenclature of Organic Compounds",
+                        "formatted_name": "Nomenclature_Of_Organic_Compounds",
+                        "id": 373,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.6",
+                        "name": "Isomerism",
+                        "formatted_name": "Isomerism",
+                        "id": 374,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.7",
+                        "name": "Fundamental Concepts in Organic Reaction Mechanism",
+                        "formatted_name": "Fundamental_Concepts_In_Organic_Reaction_Mechanism",
+                        "id": 375,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.8",
+                        "name": "Methods of Purification of Organic Compounds",
+                        "formatted_name": "Methods_Of_Purification_Of_Organic_Compounds",
+                        "id": 376,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.9",
+                        "name": "Qualitative Analysis of Organic Compounds",
+                        "formatted_name": "Qualitative_Analysis_Of_Organic_Compounds",
+                        "id": 377,
+                        "chapter_id": 46
+                    },
+                    {
+                        "no": "8.10",
+                        "name": "Quantitative Analysis",
+                        "formatted_name": "Quantitative_Analysis",
+                        "id": 378,
+                        "chapter_id": 46
+                    }
+                ]
+            },
+            {
+                "no": "9",
+                "name": "Hydrocarbons",
+                "formatted_name": "Hydrocarbons",
+                "id": 47,
+                "subject_id": 4,
+                "topics": [
+                    {
+                        "no": "9.1",
+                        "name": "Classification",
+                        "formatted_name": "Classification",
+                        "id": 379,
+                        "chapter_id": 47
+                    },
+                    {
+                        "no": "9.2",
+                        "name": "Alkanes",
+                        "formatted_name": "Alkanes",
+                        "id": 380,
+                        "chapter_id": 47
+                    },
+                    {
+                        "no": "9.3",
+                        "name": "Alkenes",
+                        "formatted_name": "Alkenes",
+                        "id": 381,
+                        "chapter_id": 47
+                    },
+                    {
+                        "no": "9.4",
+                        "name": "Alkynes",
+                        "formatted_name": "Alkynes",
+                        "id": 382,
+                        "chapter_id": 47
+                    },
+                    {
+                        "no": "9.5",
+                        "name": "Aromatic Hydrocarbon",
+                        "formatted_name": "Aromatic_Hydrocarbon",
+                        "id": 383,
+                        "chapter_id": 47
+                    },
+                    {
+                        "no": "9.6",
+                        "name": "Carcinogenicity and Toxicity",
+                        "formatted_name": "Carcinogenicity_And_Toxicity",
+                        "id": 384,
+                        "chapter_id": 47
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class_name": "XI",
+        "subject_name": "Biology",
+        "id": 5,
+        "created_at": "2026-01-06T10:31:58.377825",
+        "updated_at": "2026-01-06T10:31:58.377825",
+        "chapters": [
+            {
+                "no": "1",
+                "name": "DIVERSITY IN THE LIVING WORLD",
+                "formatted_name": "Diversity_In_The_Living_World",
+                "id": 48,
+                "subject_id": 5,
+                "topics": [
+                    {
+                        "no": "1",
+                        "name": "The Living World",
+                        "formatted_name": "The_Living_World",
+                        "id": 385,
+                        "chapter_id": 48
+                    },
+                    {
+                        "no": "2",
+                        "name": "Biological Classification",
+                        "formatted_name": "Biological_Classification",
+                        "id": 386,
+                        "chapter_id": 48
+                    },
+                    {
+                        "no": "3",
+                        "name": "Plant Kingdom",
+                        "formatted_name": "Plant_Kingdom",
+                        "id": 387,
+                        "chapter_id": 48
+                    },
+                    {
+                        "no": "4",
+                        "name": "Animal Kingdom",
+                        "formatted_name": "Animal_Kingdom",
+                        "id": 388,
+                        "chapter_id": 48
+                    }
+                ]
+            },
+            {
+                "no": "2",
+                "name": "STRUCTURAL ORGANISATION IN PLANTS AND ANIMALS",
+                "formatted_name": "Structural_Organisation_In_Plants_And_Animals",
+                "id": 49,
+                "subject_id": 5,
+                "topics": [
+                    {
+                        "no": "5",
+                        "name": "Morphology of Flowering Plants",
+                        "formatted_name": "Morphology_Of_Flowering_Plants",
+                        "id": 389,
+                        "chapter_id": 49
+                    },
+                    {
+                        "no": "6",
+                        "name": "Anatomy of Flowering Plants",
+                        "formatted_name": "Anatomy_Of_Flowering_Plants",
+                        "id": 390,
+                        "chapter_id": 49
+                    },
+                    {
+                        "no": "7",
+                        "name": "Structural Organisation in Animals",
+                        "formatted_name": "Structural_Organisation_In_Animals",
+                        "id": 391,
+                        "chapter_id": 49
+                    }
+                ]
+            },
+            {
+                "no": "3",
+                "name": "CELL : STRUCTURE AND FUNCTIONS",
+                "formatted_name": "Cell_Structure_And_Functions",
+                "id": 50,
+                "subject_id": 5,
+                "topics": [
+                    {
+                        "no": "8",
+                        "name": "Cell : The Unit of Life",
+                        "formatted_name": "Cell_The_Unit_Of_Life",
+                        "id": 392,
+                        "chapter_id": 50
+                    },
+                    {
+                        "no": "9",
+                        "name": "Biomolecules",
+                        "formatted_name": "Biomolecules",
+                        "id": 393,
+                        "chapter_id": 50
+                    },
+                    {
+                        "no": "10",
+                        "name": "Cell Cycle and Cell Division",
+                        "formatted_name": "Cell_Cycle_And_Cell_Division",
+                        "id": 394,
+                        "chapter_id": 50
+                    }
+                ]
+            },
+            {
+                "no": "4",
+                "name": "PLANT PHYSIOLOGY",
+                "formatted_name": "Plant_Physiology",
+                "id": 51,
+                "subject_id": 5,
+                "topics": [
+                    {
+                        "no": "11",
+                        "name": "Photosynthesis in Higher Plants",
+                        "formatted_name": "Photosynthesis_In_Higher_Plants",
+                        "id": 395,
+                        "chapter_id": 51
+                    },
+                    {
+                        "no": "12",
+                        "name": "Respiration in Plants",
+                        "formatted_name": "Respiration_In_Plants",
+                        "id": 396,
+                        "chapter_id": 51
+                    },
+                    {
+                        "no": "13",
+                        "name": "Plant Growth and Development",
+                        "formatted_name": "Plant_Growth_And_Development",
+                        "id": 397,
+                        "chapter_id": 51
+                    }
+                ]
+            },
+            {
+                "no": "5",
+                "name": "HUMAN PHYSIOLOGY",
+                "formatted_name": "Human_Physiology",
+                "id": 52,
+                "subject_id": 5,
+                "topics": [
+                    {
+                        "no": "14",
+                        "name": "Breathing and Exchange of Gases",
+                        "formatted_name": "Breathing_And_Exchange_Of_Gases",
+                        "id": 398,
+                        "chapter_id": 52
+                    },
+                    {
+                        "no": "15",
+                        "name": "Body Fluids and Circulation",
+                        "formatted_name": "Body_Fluids_And_Circulation",
+                        "id": 399,
+                        "chapter_id": 52
+                    },
+                    {
+                        "no": "16",
+                        "name": "Excretory Products and their Elimination",
+                        "formatted_name": "Excretory_Products_And_Their_Elimination",
+                        "id": 400,
+                        "chapter_id": 52
+                    },
+                    {
+                        "no": "17",
+                        "name": "Locomotion and Movement",
+                        "formatted_name": "Locomotion_And_Movement",
+                        "id": 401,
+                        "chapter_id": 52
+                    },
+                    {
+                        "no": "18",
+                        "name": "Neural Control and Coordination",
+                        "formatted_name": "Neural_Control_And_Coordination",
+                        "id": 402,
+                        "chapter_id": 52
+                    },
+                    {
+                        "no": "19",
+                        "name": "Chemical Coordination and Integration",
+                        "formatted_name": "Chemical_Coordination_And_Integration",
+                        "id": 403,
+                        "chapter_id": 52
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "class_name": "XII",
+        "subject_name": "Biology",
+        "id": 6,
+        "created_at": "2026-01-06T10:31:58.960405",
+        "updated_at": "2026-01-06T10:31:58.960405",
+        "chapters": [
+            {
+                "no": "6",
+                "name": "REPRODUCTION",
+                "formatted_name": "Reproduction",
+                "id": 53,
+                "subject_id": 6,
+                "topics": [
+                    {
+                        "no": "2",
+                        "name": "Human Reproduction",
+                        "formatted_name": "Human_Reproduction",
+                        "id": 405,
+                        "chapter_id": 53
+                    },
+                    {
+                        "no": "1",
+                        "name": "Sexual Reproduction in Flowering Plants",
+                        "formatted_name": "Sexual_Reproduction_In_Flowering_Plants",
+                        "id": 404,
+                        "chapter_id": 53
+                    },
+                    {
+                        "no": "3",
+                        "name": "Reproductive Health",
+                        "formatted_name": "Reproductive_Health",
+                        "id": 406,
+                        "chapter_id": 53
+                    }
+                ]
+            },
+            {
+                "no": "7",
+                "name": "GENETICS AND EVOLUTION",
+                "formatted_name": "Genetics_And_Evolution",
+                "id": 54,
+                "subject_id": 6,
+                "topics": [
+                    {
+                        "no": "4",
+                        "name": "Principles of Inheritance and Variation",
+                        "formatted_name": "Principles_Of_Inheritance_And_Variation",
+                        "id": 407,
+                        "chapter_id": 54
+                    },
+                    {
+                        "no": "5",
+                        "name": "Molecular Basis of Inheritance",
+                        "formatted_name": "Molecular_Basis_Of_Inheritance",
+                        "id": 408,
+                        "chapter_id": 54
+                    },
+                    {
+                        "no": "6",
+                        "name": "Evolution",
+                        "formatted_name": "Evolution",
+                        "id": 409,
+                        "chapter_id": 54
+                    }
+                ]
+            },
+            {
+                "no": "8",
+                "name": "BIOLOGY IN HUMAN WELFARE",
+                "formatted_name": "Biology_In_Human_Welfare",
+                "id": 55,
+                "subject_id": 6,
+                "topics": [
+                    {
+                        "no": "7",
+                        "name": "Human Health and Disease",
+                        "formatted_name": "Human_Health_And_Disease",
+                        "id": 410,
+                        "chapter_id": 55
+                    },
+                    {
+                        "no": "8",
+                        "name": "Microbes in Human Welfare",
+                        "formatted_name": "Microbes_In_Human_Welfare",
+                        "id": 411,
+                        "chapter_id": 55
+                    }
+                ]
+            },
+            {
+                "no": "9",
+                "name": "BIOTECHNOLOGY",
+                "formatted_name": "Biotechnology",
+                "id": 56,
+                "subject_id": 6,
+                "topics": [
+                    {
+                        "no": "9",
+                        "name": "Biotechnology : Principles and Processes",
+                        "formatted_name": "Biotechnology_Principles_And_Processes",
+                        "id": 412,
+                        "chapter_id": 56
+                    },
+                    {
+                        "no": "10",
+                        "name": "Biotechnology and its Applications",
+                        "formatted_name": "Biotechnology_And_Its_Applications",
+                        "id": 413,
+                        "chapter_id": 56
+                    }
+                ]
+            },
+            {
+                "no": "10",
+                "name": "ECOLOGY",
+                "formatted_name": "Ecology",
+                "id": 57,
+                "subject_id": 6,
+                "topics": [
+                    {
+                        "no": "11",
+                        "name": "Organisms and Populations",
+                        "formatted_name": "Organisms_And_Populations",
+                        "id": 414,
+                        "chapter_id": 57
+                    },
+                    {
+                        "no": "12",
+                        "name": "Ecosystem",
+                        "formatted_name": "Ecosystem",
+                        "id": 415,
+                        "chapter_id": 57
+                    },
+                    {
+                        "no": "13",
+                        "name": "Biodiversity and Conservation",
+                        "formatted_name": "Biodiversity_And_Conservation",
+                        "id": 416,
+                        "chapter_id": 57
+                    }
+                ]
+            }
+        ]
+    }
+]

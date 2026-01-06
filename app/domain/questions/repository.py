@@ -24,6 +24,30 @@ class QuestionRepository:
         )
         return list(self.session.scalars(stmt))
 
+    def search(
+        self,
+        *,
+        year: Optional[str] = None,
+        source: Optional[str] = None,
+        subject: Optional[str] = None,
+        chapter: Optional[str] = None,
+        reviewed: Optional[bool] = None,
+    ) -> list[Question]:
+        stmt = select(Question)
+        if year:
+            stmt = stmt.where(Question.year == year)
+        if source:
+            stmt = stmt.where(Question.source == source)
+        if subject:
+            stmt = stmt.where(Question.subject == subject)
+        if chapter:
+            stmt = stmt.where(Question.chapter == chapter)
+        if reviewed is not None:
+            stmt = stmt.where(Question.reviewed == reviewed)
+
+        stmt = stmt.order_by(cast(Question.question_number, Integer))
+        return list(self.session.scalars(stmt))
+
     def get_by_question_number(
         self, *, year: str, question_number: str
     ) -> Optional[Question]:

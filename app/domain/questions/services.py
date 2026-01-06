@@ -15,6 +15,22 @@ class QuestionService:
     def search_questions_by_year(self, year: str) -> list[Question]:
         return self.repo.list_by_year(year)
 
+    def search_questions(
+        self,
+        year: str | None = None,
+        source: str | None = None,
+        subject: str | None = None,
+        chapter: str | None = None,
+        reviewed: bool | None = None,
+    ) -> list[Question]:
+        return self.repo.search(
+            year=year,
+            source=source,
+            subject=subject,
+            chapter=chapter,
+            reviewed=reviewed,
+        )
+
     def get_question_by_question_number(
         self, *, year: str, question_number: str
     ) -> Question | None:
