@@ -91,6 +91,7 @@ class QuestionSearchRead(BaseModel):
     subject: Optional[str]
     chapter: Optional[str]
     question_number: str
+    question_text: Optional[str] = None
     reviewed: bool
     answer: Optional[str]
     ai_answer: Optional[str]
