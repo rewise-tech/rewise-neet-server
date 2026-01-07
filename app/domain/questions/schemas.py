@@ -90,6 +90,7 @@ class QuestionSearchRead(BaseModel):
     year: Optional[str]
     subject: Optional[str]
     chapter: Optional[str]
+    topic: Optional[str]
     question_number: str
     question_text: Optional[str] = None
     reviewed: bool
