@@ -29,12 +29,24 @@ class Question(Base):
     question_text = Column(Text, nullable=True)
     difficulty = Column(String, nullable=True)
     has_diagram = Column(Boolean, default=False)
-    diagram_description = Column(Text)
-    diagram_position = Column(String)
-    diagram_name = Column(Text)
+    diagram_description = Column(
+        Text,
+        nullable=True,
+    )
+    diagram_position = Column(
+        String,
+        nullable=True,
+    )
+    diagram_name = Column(
+        Text,
+        nullable=True,
+    )
     answer = Column(String, nullable=True)
     ai_answer = Column(String, nullable=True)
-    solution = Column(Text)
+    solution = Column(
+        Text,
+        nullable=True,
+    )
     reviewed = Column(Boolean, default=False)
 
     created_at: Mapped[datetime] = mapped_column(
@@ -67,8 +79,14 @@ class Option(Base):
     text = Column(Text, nullable=True)
 
     has_diagram = Column(Boolean, default=False)
-    diagram_description = Column(Text)
-    diagram_name = Column(Text)
+    diagram_description = Column(
+        Text,
+        nullable=True,
+    )
+    diagram_name = Column(
+        Text,
+        nullable=True,
+    )
 
     # Relationship back to question
     question = relationship("Question", back_populates="options")

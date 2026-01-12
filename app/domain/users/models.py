@@ -1,5 +1,6 @@
-from sqlalchemy import String, Boolean, Integer
+from sqlalchemy import Boolean, Column, Integer, String, TIMESTAMP, func
 from sqlalchemy.orm import Mapped, mapped_column
+from datetime import datetime
 
 from app.db.base import Base
 
@@ -7,18 +8,21 @@ from app.db.base import Base
 class User(Base):
     __tablename__ = "users"
 
-    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
-    name: Mapped[str] = mapped_column(String(255), nullable=False)
-    email: Mapped[str] = mapped_column(
-        String(255), unique=True, nullable=False, index=True
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String(255), nullable=False)
+    email = Column(String(255), unique=True, nullable=False, index=True)
+    mobile = Column(String(32), unique=True, nullable=False, index=True)
+    password_hash = Column(String(255), nullable=False)
+    role = Column(String(64), nullable=False, server_default="user")
+    is_active = Column(Boolean, default=True)
+
+    created_at: Mapped[datetime] = mapped_column(
+        TIMESTAMP(timezone=True), server_default=func.now()
     )
-    mobile: Mapped[str] = mapped_column(
-        String(32), unique=True, nullable=False, index=True
-    )
-    password_hash: Mapped[str] = mapped_column(String(255), nullable=False)
-    role: Mapped[str] = mapped_column(String(64), nullable=False, server_default="user")
-    is_active: Mapped[bool] = mapped_column(
-        Boolean, nullable=False, server_default="true", default=True
+    updated_at: Mapped[datetime] = mapped_column(
+        TIMESTAMP(timezone=True),
+        server_default=func.now(),
+        onupdate=func.now(),
     )
 
     def __repr__(self) -> str:

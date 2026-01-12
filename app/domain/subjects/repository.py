@@ -1,4 +1,4 @@
-from typing import List, Optional, Sequence
+from typing import Optional, Sequence
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -21,7 +21,10 @@ class SubjectsRepository:
     # --- Subject Methods ---
     def create_subject(self, subject: SubjectCreate) -> Subject:
         db_subject = Subject(
-            class_name=subject.class_name, subject_name=subject.subject_name
+            class_name=subject.class_name,
+            subject_name=subject.subject_name,
+            no_of_questions=subject.no_of_questions,
+            is_active=subject.is_active,
         )
         self.db.add(db_subject)
         self.db.flush()  # Flush to get the ID
@@ -33,6 +36,8 @@ class SubjectsRepository:
                     name=chapter_data.name,
                     subject_id=db_subject.id,
                     formatted_name=chapter_data.formatted_name,
+                    no_of_questions=chapter_data.no_of_questions,
+                    is_active=chapter_data.is_active,
                 )
                 self.db.add(db_chapter)
                 self.db.flush()
@@ -44,6 +49,8 @@ class SubjectsRepository:
                             name=topic_data.name,
                             chapter_id=db_chapter.id,
                             formatted_name=topic_data.formatted_name,
+                            no_of_questions=topic_data.no_of_questions,
+                            is_active=topic_data.is_active,
                         )
                         self.db.add(db_topic)
 
@@ -83,6 +90,8 @@ class SubjectsRepository:
             name=chapter.name,
             subject_id=chapter.subject_id,
             formatted_name=chapter.formatted_name,
+            no_of_questions=chapter.no_of_questions,
+            is_active=chapter.is_active,
         )
         self.db.add(db_chapter)
         self.db.flush()
@@ -94,6 +103,8 @@ class SubjectsRepository:
                     name=topic_data.name,
                     chapter_id=db_chapter.id,
                     formatted_name=topic_data.formatted_name,
+                    no_of_questions=topic_data.no_of_questions,
+                    is_active=topic_data.is_active,
                 )
                 self.db.add(db_topic)
 
@@ -137,7 +148,14 @@ class SubjectsRepository:
 
     # --- Topic Methods ---
     def create_topic(self, topic: TopicCreate) -> Topic:
-        db_topic = Topic(no=topic.no, name=topic.name, chapter_id=topic.chapter_id)
+        db_topic = Topic(
+            no=topic.no,
+            name=topic.name,
+            chapter_id=topic.chapter_id,
+            formatted_name=topic.formatted_name,
+            no_of_questions=topic.no_of_questions,
+            is_active=topic.is_active,
+        )
         self.db.add(db_topic)
         self.db.commit()
         self.db.refresh(db_topic)
