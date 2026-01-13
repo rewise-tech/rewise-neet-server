@@ -21,7 +21,6 @@ class SubjectsRepository:
     # --- Subject Methods ---
     def create_subject(self, subject: SubjectCreate) -> Subject:
         db_subject = Subject(
-            class_name=subject.class_name,
             subject_name=subject.subject_name,
             no_of_questions=subject.no_of_questions,
             is_active=subject.is_active,

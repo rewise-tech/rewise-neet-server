@@ -1,4 +1,4 @@
-from typing import List, Sequence
+from typing import Sequence
 
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session

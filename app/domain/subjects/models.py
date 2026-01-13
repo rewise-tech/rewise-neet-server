@@ -9,7 +9,6 @@ class Subject(Base):
     __tablename__ = "subjects"
 
     id = Column(Integer, primary_key=True)
-    class_name = Column(String, nullable=False)
     subject_name = Column(String, nullable=False)
     no_of_questions = Column(Integer, nullable=True)
     is_active = Column(Boolean, default=True)

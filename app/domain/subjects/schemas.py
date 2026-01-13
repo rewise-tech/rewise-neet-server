@@ -64,7 +64,6 @@ class ChapterResponse(ChapterBase):
 
 # --- Subject Schemas ---
 class SubjectBase(BaseModel):
-    class_name: str
     subject_name: str
     no_of_questions: Optional[int] = None
     is_active: Optional[bool] = True
@@ -75,7 +74,6 @@ class SubjectCreate(SubjectBase):
 
 
 class SubjectUpdate(BaseModel):
-    class_name: Optional[str] = None
     subject_name: Optional[str] = None
     no_of_questions: Optional[int] = None
     is_active: Optional[bool] = None
