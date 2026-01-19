@@ -17,7 +17,7 @@ from app.domain.subjects.schemas import (
 )
 from app.domain.subjects.services import SubjectsService
 
-router = APIRouter()
+router = APIRouter(tags=["subjects"])
 
 
 def get_service(db: Session = Depends(get_session)) -> SubjectsService:
