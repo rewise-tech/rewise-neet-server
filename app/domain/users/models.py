@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 from sqlalchemy import Boolean, Column, Integer, String, TIMESTAMP, func
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 from datetime import datetime
 
 from app.db.base import Base
@@ -24,6 +26,8 @@ class User(Base):
         server_default=func.now(),
         onupdate=func.now(),
     )
+
+    mock_tests = relationship("MockTest", back_populates="user")
 
     def __repr__(self) -> str:
         return f"<User {self.name} {self.email} {self.mobile}>"

@@ -85,6 +85,7 @@ class MockTestService:
     def create_mock_test(self, payload: schemas.MockTestCreate) -> MockTest:
         mock_test = MockTest(
             marks_scored=payload.marks_scored,
+            negative_marks=payload.negative_marks,
             test_status=payload.test_status,
             questions=payload.questions,
             time_taken=payload.time_taken,
@@ -98,6 +99,8 @@ class MockTestService:
         fields: dict[str, object] = {}
         if payload.marks_scored is not None:
             fields["marks_scored"] = payload.marks_scored
+        if payload.negative_marks is not None:
+            fields["negative_marks"] = payload.negative_marks
         if payload.test_status is not None:
             fields["test_status"] = payload.test_status
         if payload.questions is not None:

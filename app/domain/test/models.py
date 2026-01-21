@@ -1,3 +1,4 @@
+from __future__ import annotations
 from sqlalchemy import (
     Boolean,
     Column,
@@ -12,13 +13,13 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from datetime import datetime
 
 from app.db.base import Base
-from app.domain.users.models import User
 
 
 class MockTest(Base):
     __tablename__ = "mock_test"
     id = Column(Integer, primary_key=True)
     marks_scored = Column(Integer, default=0, nullable=True)
+    negative_marks = Column(Integer, default=0, nullable=True)
     test_status = Column(String(50), nullable=False)
     questions = Column(JSON, nullable=True)
     time_taken = Column(Integer, default=0, nullable=True)
@@ -34,7 +35,7 @@ class MockTest(Base):
     )
 
     # Relationship to User (backref optional for bidirectional access)
-    user = relationship("User", back_populates="test_results")
+    user = relationship("User", back_populates="mock_tests")
 
 
 class TestSettings(Base):

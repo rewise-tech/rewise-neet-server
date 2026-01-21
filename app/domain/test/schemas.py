@@ -28,6 +28,7 @@ class TestSettingsRead(TestSettingsBase):
 # MockTest Schemas
 class MockTestBase(BaseModel):
     marks_scored: Optional[int] = 0
+    negative_marks: Optional[int] = 0
     test_status: str
     questions: Optional[dict] = None
     time_taken: Optional[int] = 0
@@ -40,6 +41,7 @@ class MockTestCreate(MockTestBase):
 
 class MockTestUpdate(BaseModel):
     marks_scored: Optional[int] = None
+    negative_marks: Optional[int] = None
     test_status: Optional[str] = None
     questions: Optional[dict] = None
     time_taken: Optional[int] = None
